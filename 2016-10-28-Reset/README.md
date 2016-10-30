@@ -1,6 +1,6 @@
 ![](https://github.com/FPGAwars/workshops/raw/master/2016-10-28-Reset/wiki/Open-fpga-tools-01.png)
 
-[MORE INFORMATION](https://github.com/FPGAwars/workshops/wiki/2016_10_28:-Reset-ETSII-UPM)
+[MORE INFORMATION](https://github.com/FPGAwars/workshops/wiki/2016_10_28:-Reset-ETSII-UPM) (In Spanish)
 
 # Reset workshop
 
