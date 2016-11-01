@@ -1,4 +1,4 @@
-![](https://github.com/FPGAwars/workshops/raw/master/2016-10-28-Reset/wiki/Open-fpga-tools-01.png)
+![](https://github.com/FPGAwars/workshops/raw/master/2016-10-28-Reset-ETSII-UPM/wiki/Open-fpga-tools-01.png)
 
 # Reset ETSII UPM workshop
 
