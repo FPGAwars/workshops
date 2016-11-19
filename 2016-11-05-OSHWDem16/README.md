@@ -1,3 +1,4 @@
+![](https://github.com/FPGAwars/workshops/raw/master/2016-11-05-OSHWDem16/images/workshop-oshwdem16-0.png)
 
 # OSHWDem16 workshop
 
@@ -5,7 +6,7 @@
 
 ## Documentation
 
-
+[Find more information in the wiki](https://github.com/FPGAwars/workshops/wiki/2016-11-05-OSHWDem16) (In Spanish)
 
 ## License
 
