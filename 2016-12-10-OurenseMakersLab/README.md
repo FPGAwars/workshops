@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/FPGAwars/workshops/raw/master/2016-12-10-OurenseMakersLab/images/workshop-makerslab16-1.jpg)
 
 # OurenseMakersLab workshop
 
@@ -6,7 +6,7 @@
 
 ## Documentation
 
-[Find more information in the wiki]() (In Spanish)
+[Find more information in the wiki](https://github.com/FPGAwars/workshops/wiki/2016_12_10:-Ourense-MakersLab) (In Spanish)
 
 ## License
 
