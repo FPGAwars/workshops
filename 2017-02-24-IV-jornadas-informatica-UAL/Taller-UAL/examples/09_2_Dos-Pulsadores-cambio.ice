@@ -12,11 +12,62 @@
     "graph": {
       "blocks": [
         {
+          "id": "c2d79090-ecfe-4ead-ad7c-b8e05b698b5f",
+          "type": "a627f5aacef2457b46054b0e895bd70d62c19a0c",
+          "position": {
+            "x": 272,
+            "y": 24
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "65fdc0bb-356a-4a12-b2a8-23b6ff487c04",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED1",
+                "value": "96"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 464,
+            "y": 24
+          }
+        },
+        {
+          "id": "5c736351-fec4-4818-962e-b950d2aa93c7",
+          "type": "basic.input",
+          "data": {
+            "name": "Boton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 64,
+            "y": 40
+          }
+        },
+        {
           "id": "b127c134-8e95-4417-9260-972c8b7a5f56",
           "type": "a627f5aacef2457b46054b0e895bd70d62c19a0c",
           "position": {
             "x": 272,
-            "y": 48
+            "y": 120
           },
           "size": {
             "width": 96,
@@ -39,7 +90,7 @@
           },
           "position": {
             "x": 464,
-            "y": 48
+            "y": 120
           }
         },
         {
@@ -50,8 +101,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "SW1",
-                "value": "10"
+                "name": "SW2",
+                "value": "11"
               }
             ],
             "virtual": false,
@@ -59,18 +110,18 @@
           },
           "position": {
             "x": 64,
-            "y": 64
+            "y": 136
           }
         },
         {
           "id": "b3473b8d-5031-42e9-a7e9-e08625104940",
           "type": "basic.info",
           "data": {
-            "info": "Ejemplo 9.1: Pulsador de cambio\n\nElemento de memoria de 1 bit, que cambia su estado con cada click\ndel pulsador. Inicialmente está a cero. Este circuito hace que el \nled cambie de estado con cada click del pulsador"
+            "info": "Ejercicio 9.1: Dos Pulsadores de cambio\n\nLos pulsadores de cambio están conectados a los leds 0 y 1. Con cada \nclick del botón un led. Esto nos permite visualizar en los leds un\nnumero binario de 2 bits, y verlo de forma permanente"
           },
           "position": {
             "x": 56,
-            "y": 168
+            "y": 232
           },
           "size": {
             "width": 576,
@@ -98,6 +149,28 @@
             "block": "b127c134-8e95-4417-9260-972c8b7a5f56",
             "port": "c1e09958-aeb1-4453-af92-da0679a91f1d"
           }
+        },
+        {
+          "source": {
+            "block": "c2d79090-ecfe-4ead-ad7c-b8e05b698b5f",
+            "port": "ffff8058-ea9e-432f-b958-332890cf0e48"
+          },
+          "target": {
+            "block": "65fdc0bb-356a-4a12-b2a8-23b6ff487c04",
+            "port": "in"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "5c736351-fec4-4818-962e-b950d2aa93c7",
+            "port": "out"
+          },
+          "target": {
+            "block": "c2d79090-ecfe-4ead-ad7c-b8e05b698b5f",
+            "port": "c1e09958-aeb1-4453-af92-da0679a91f1d"
+          },
+          "vertices": []
         }
       ]
     },
