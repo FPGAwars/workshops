@@ -63,11 +63,11 @@
           }
         },
         {
-          "id": "22905770-31b7-423f-962c-9cfb41cd0193",
-          "type": "7fd7294a75184fe85199b5cb87869dbe093465f1",
+          "id": "e16ac507-6c62-4a25-ac3e-d1bf2bd7247e",
+          "type": "16124060c91b761a61a0c26ac97d5e7e919df783",
           "position": {
-            "x": 480,
-            "y": 168
+            "x": 440,
+            "y": 160
           },
           "size": {
             "width": 96,
@@ -89,8 +89,8 @@
             "virtual": false
           },
           "position": {
-            "x": 640,
-            "y": 168
+            "x": 600,
+            "y": 160
           }
         },
         {
@@ -148,7 +148,7 @@
           "id": "b3473b8d-5031-42e9-a7e9-e08625104940",
           "type": "basic.info",
           "data": {
-            "info": "Ejemplo 10.1: Tabla de verdad de la puerta OR\n\nSe usan dos pulsadores de cambio para almacenar las dos entradas\nde la puerta or, visualizándose sus valores por los leds 1 y 0.\nPor el led 7 se ve el resultado de la operación OR entre ambos"
+            "info": "Ejercicio 10.1: Tabla de verdad de la puerta AND\n\nSe usan dos pulsadores de cambio para almacenar las dos entradas\nde la puerta AND, visualizándose sus valores por los leds 1 y 0.\nPor el led 7 se ve el resultado de la operación AND entre ambos"
           },
           "position": {
             "x": 56,
@@ -209,7 +209,7 @@
             "port": "ffff8058-ea9e-432f-b958-332890cf0e48"
           },
           "target": {
-            "block": "22905770-31b7-423f-962c-9cfb41cd0193",
+            "block": "e16ac507-6c62-4a25-ac3e-d1bf2bd7247e",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
           }
         },
@@ -219,13 +219,13 @@
             "port": "ffff8058-ea9e-432f-b958-332890cf0e48"
           },
           "target": {
-            "block": "22905770-31b7-423f-962c-9cfb41cd0193",
+            "block": "e16ac507-6c62-4a25-ac3e-d1bf2bd7247e",
             "port": "97b51945-d716-4b6c-9db9-970d08541249"
           }
         },
         {
           "source": {
-            "block": "22905770-31b7-423f-962c-9cfb41cd0193",
+            "block": "e16ac507-6c62-4a25-ac3e-d1bf2bd7247e",
             "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
@@ -238,7 +238,7 @@
     "state": {
       "pan": {
         "x": 0,
-        "y": 0
+        "y": -1
       },
       "zoom": 1
     }
@@ -364,13 +364,13 @@
         }
       }
     },
-    "7fd7294a75184fe85199b5cb87869dbe093465f1": {
+    "16124060c91b761a61a0c26ac97d5e7e919df783": {
       "package": {
-        "name": "OR",
+        "name": "AND",
         "version": "1.0.1",
-        "description": "Puerta OR",
+        "description": "Puerta AND",
         "author": "Jesús Arroyo, Juan González",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2289.129%22%20height=%2240.077%22%20version=%221%22%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%3E%3Cpath%20d=%22M40.087%2038.577H21.661s6.142-8.538%206.292-18.874c.15-10.335-6.441-18.124-6.441-18.124L40.198%201.5c9.401.391%2021.03%2010.727%2024.906%2018.803-6.599%2013.55-18.654%2018.023-25.017%2018.274z%22%20stroke-width=%223%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M1.014%2010.19h24.52M1.181%2029.836h23.438M66.445%2020.547h21.67%22%20stroke-width=%222%22/%3E%3C/g%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2089.832588%2040.470242%22%20width=%2289.833%22%20height=%2240.47%22%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%3E%3Cpath%20d=%22M-205.839%20439.87h-19.63V402.4h19.63s17.819%201.737%2017.819%2018.517c0%2016.779-17.819%2018.953-17.819%2018.953z%22%20stroke-width=%223%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-250.986%20410.792h24.08M-250.986%20430.76h24.08M-187.26%20420.683h24.078%22%20stroke-width=%222%22%20stroke-linecap=%22round%22/%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -379,7 +379,7 @@
               "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
               "type": "basic.code",
               "data": {
-                "code": "//-- Puerta OR\n\nassign c = a | b;\n\n",
+                "code": "//-- Puerta AND\n\nassign c = a & b;\n\n",
                 "params": [],
                 "ports": {
                   "in": [
