@@ -43,14 +43,45 @@
           }
         },
         {
+          "id": "ad1e45fd-bfeb-4033-8aae-1461c944bb2c",
+          "type": "b734f60cce5a9de8621cbbd63cf95b689e40512c",
+          "position": {
+            "x": 216,
+            "y": 200
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "91f62e0c-05a9-4d3b-8641-a1d7a6b79172",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED7",
+                "value": "104"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 512,
+            "y": 200
+          }
+        },
+        {
           "id": "eb6f4a3d-1a3a-48bb-bd7a-e36baf54058f",
           "type": "basic.info",
           "data": {
-            "info": "Ejemplo 1: \"Hola mundo\"\n\nUn bit constante a \"1\" se conecta a la salida LED0, para enceder el \nLED0 de la Icezum Alhambra"
+            "info": "Ejemplo 2.1: Encendiendo dos leds a la vez\n\nPara encender dos leds a la vez, clonamos el circuito \"hola mundo\" y \ncambiamos el led al que va conectado. En hardware los circuitos funcionan\nen paralelo, y se pueden clonar"
           },
           "position": {
-            "x": 144,
-            "y": 240
+            "x": 152,
+            "y": 320
           },
           "size": {
             "width": 592,
@@ -68,13 +99,24 @@
             "block": "4453cecc-2f2c-47f3-8d10-f3e485009967",
             "port": "in"
           }
+        },
+        {
+          "source": {
+            "block": "ad1e45fd-bfeb-4033-8aae-1461c944bb2c",
+            "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
+          },
+          "target": {
+            "block": "91f62e0c-05a9-4d3b-8641-a1d7a6b79172",
+            "port": "in"
+          },
+          "vertices": []
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": -1
+        "x": 6,
+        "y": 3
       },
       "zoom": 1
     }
