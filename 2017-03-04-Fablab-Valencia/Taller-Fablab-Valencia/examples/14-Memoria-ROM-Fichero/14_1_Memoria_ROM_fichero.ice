@@ -26,7 +26,7 @@
             "virtual": false
           },
           "position": {
-            "x": 736,
+            "x": 584,
             "y": 16
           }
         },
@@ -45,27 +45,15 @@
             "virtual": false
           },
           "position": {
-            "x": 736,
+            "x": 584,
             "y": 96
           }
         },
         {
-          "id": "24dd8691-17f7-46b9-a1c2-37b969b44654",
-          "type": "5f216edb7f65b6e68a19e35979b83925754f8a8d",
+          "id": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+          "type": "d8c0f3a985fc22f4da1ef074989e821b9733ec6a",
           "position": {
-            "x": 64,
-            "y": 112
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-          "type": "3328b68ed4be56cd405ce936b0fc257fbb204d23",
-          "position": {
-            "x": 568,
+            "x": 416,
             "y": 120
           },
           "size": {
@@ -74,27 +62,15 @@
           }
         },
         {
-          "id": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-          "type": "81a28e21f1cd93fd18569075f2487b025baf619c",
+          "id": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+          "type": "f7a1225bfba08f560985233aed5b39efe856af19",
           "position": {
-            "x": 392,
+            "x": 224,
             "y": 152
           },
           "size": {
             "width": 96,
             "height": 128
-          }
-        },
-        {
-          "id": "baf58d2f-6717-46f8-b594-daaa5951363b",
-          "type": "0d099e8e085caddc0fe08b1b91d41e9b802a7b35",
-          "position": {
-            "x": 232,
-            "y": 168
-          },
-          "size": {
-            "width": 96,
-            "height": 96
           }
         },
         {
@@ -112,28 +88,20 @@
             "virtual": false
           },
           "position": {
-            "x": 736,
+            "x": 584,
             "y": 168
           }
         },
         {
-          "id": "55a20e10-1373-4514-adae-126faae298dc",
-          "type": "basic.input",
-          "data": {
-            "name": "Boton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW2",
-                "value": "11"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
+          "id": "f2495177-8d7a-42b3-a7c1-44161dd8e9b5",
+          "type": "1e97b504b5a53218f2c298d157f9ede26fe313c9",
           "position": {
-            "x": 64,
+            "x": 72,
             "y": 184
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         },
         {
@@ -151,20 +119,23 @@
             "virtual": false
           },
           "position": {
-            "x": 736,
+            "x": 584,
             "y": 240
           }
         },
         {
-          "id": "201ded69-81aa-42c3-bd49-8ca95df18d3f",
-          "type": "a627f5aacef2457b46054b0e895bd70d62c19a0c",
+          "id": "3105bcac-7e52-43c4-988f-0e17e54f36a3",
+          "type": "basic.info",
+          "data": {
+            "info": "Ejemplo 13.1: Memoria ROM 16x5 de test\n\nEjemplo de utilización de una memoria ROM de 16 posiciones\ny 5 bits por posición. Mediante un contador de 4 bits\nse envían secuencialmente las direcciones de acceso\n0,1,2...15. El contenido de la rom se saca por los 5 leds\n"
+          },
           "position": {
-            "x": 224,
+            "x": 32,
             "y": 312
           },
           "size": {
-            "width": 96,
-            "height": 64
+            "width": 464,
+            "height": 128
           }
         },
         {
@@ -182,50 +153,65 @@
             "virtual": false
           },
           "position": {
-            "x": 736,
+            "x": 584,
             "y": 312
-          }
-        },
-        {
-          "id": "17e53778-f21f-42b5-b4eb-639d1d835f1b",
-          "type": "basic.input",
-          "data": {
-            "name": "Boton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 64,
-            "y": 328
-          }
-        },
-        {
-          "id": "3105bcac-7e52-43c4-988f-0e17e54f36a3",
-          "type": "basic.info",
-          "data": {
-            "info": "Ejercicio 13.1: Recorriendo la memoria en modo manual / automático\n\nInicialmente este circuito recorre las 16 posiciones de la memoria rom mandando\nsu contenido a los leds. Haciendo click en el pulsador 1 se pasa a modo manual\nEn este modo se usa el pulsador SW2 para incrementar manualmente el contador\nCon cada click se accede a la siguiente dirección. En cualquier momento podemos\npasar al modo automático haciendo click en SW1"
-          },
-          "position": {
-            "x": 56,
-            "y": 416
-          },
-          "size": {
-            "width": 672,
-            "height": 128
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
+            "block": "f2495177-8d7a-42b3-a7c1-44161dd8e9b5",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+            "port": "6ae99fac-1a4b-4497-8332-951c1506f887"
+          }
+        },
+        {
+          "source": {
+            "block": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+            "port": "036ace94-97d4-4cd5-9578-8e5fd7805a8f"
+          },
+          "target": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+            "port": "268fc6f6-ccd5-4346-b1fb-e3d2d5f2eab4"
+          }
+        },
+        {
+          "source": {
+            "block": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+            "port": "273bc1c3-ee2e-4ba8-bc26-c52d5863f97b"
+          },
+          "target": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+            "port": "e1c51672-13de-4ea7-abf9-0f35094debf7"
+          }
+        },
+        {
+          "source": {
+            "block": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+            "port": "9a486784-a505-4ddb-8713-5be0f06c4d42"
+          },
+          "target": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+            "port": "1e17769d-e9f9-49ec-ad74-42446f4c58cb"
+          }
+        },
+        {
+          "source": {
+            "block": "ffd809c3-4ef5-454c-800b-d73b03437e0e",
+            "port": "54072a0d-410b-42d9-be29-083d739740c9"
+          },
+          "target": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+            "port": "6a3a77a1-0274-49f3-a8aa-8f4541647c49"
+          }
+        },
+        {
+          "source": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
             "port": "c6d24983-5d73-4043-b3cc-d7001b3dea21"
           },
           "target": {
@@ -234,24 +220,14 @@
           },
           "vertices": [
             {
-              "x": 696,
-              "y": 96
+              "x": 552,
+              "y": 104
             }
           ]
         },
         {
           "source": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-            "port": "8d7a3ef2-e692-4d98-ad79-a2efd6133b54"
-          },
-          "target": {
-            "block": "8d7a3ef2-e692-4d98-ad79-a2efd6133b54",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
             "port": "54219a2b-3194-4bc9-af6e-f301bc54dabc"
           },
           "target": {
@@ -261,7 +237,17 @@
         },
         {
           "source": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
+            "port": "8d7a3ef2-e692-4d98-ad79-a2efd6133b54"
+          },
+          "target": {
+            "block": "8d7a3ef2-e692-4d98-ad79-a2efd6133b54",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
             "port": "d9a54421-4e09-4fbc-b8d7-7b3eb548e0c5"
           },
           "target": {
@@ -271,7 +257,7 @@
         },
         {
           "source": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
+            "block": "9b51e22d-9d6d-473e-aa5b-93362e4be55d",
             "port": "9be68d72-9923-49f1-bf9d-5f25effbf769"
           },
           "target": {
@@ -280,214 +266,23 @@
           },
           "vertices": [
             {
-              "x": 696,
-              "y": 304
+              "x": 544,
+              "y": 312
             }
           ]
-        },
-        {
-          "source": {
-            "block": "55a20e10-1373-4514-adae-126faae298dc",
-            "port": "out"
-          },
-          "target": {
-            "block": "baf58d2f-6717-46f8-b594-daaa5951363b",
-            "port": "5fb29465-2ee7-45bb-afa4-9a3de895c774"
-          }
-        },
-        {
-          "source": {
-            "block": "17e53778-f21f-42b5-b4eb-639d1d835f1b",
-            "port": "out"
-          },
-          "target": {
-            "block": "201ded69-81aa-42c3-bd49-8ca95df18d3f",
-            "port": "c1e09958-aeb1-4453-af92-da0679a91f1d"
-          }
-        },
-        {
-          "source": {
-            "block": "201ded69-81aa-42c3-bd49-8ca95df18d3f",
-            "port": "ffff8058-ea9e-432f-b958-332890cf0e48"
-          },
-          "target": {
-            "block": "baf58d2f-6717-46f8-b594-daaa5951363b",
-            "port": "67ed5e09-486d-4f97-929f-aefea9c43951"
-          },
-          "vertices": [
-            {
-              "x": 256,
-              "y": 288
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "24dd8691-17f7-46b9-a1c2-37b969b44654",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "baf58d2f-6717-46f8-b594-daaa5951363b",
-            "port": "c3f73f68-1074-4355-b69f-6a20f7bea3e7"
-          }
-        },
-        {
-          "source": {
-            "block": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-            "port": "036ace94-97d4-4cd5-9578-8e5fd7805a8f"
-          },
-          "target": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-            "port": "268fc6f6-ccd5-4346-b1fb-e3d2d5f2eab4"
-          }
-        },
-        {
-          "source": {
-            "block": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-            "port": "273bc1c3-ee2e-4ba8-bc26-c52d5863f97b"
-          },
-          "target": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-            "port": "e1c51672-13de-4ea7-abf9-0f35094debf7"
-          }
-        },
-        {
-          "source": {
-            "block": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-            "port": "9a486784-a505-4ddb-8713-5be0f06c4d42"
-          },
-          "target": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-            "port": "1e17769d-e9f9-49ec-ad74-42446f4c58cb"
-          }
-        },
-        {
-          "source": {
-            "block": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-            "port": "54072a0d-410b-42d9-be29-083d739740c9"
-          },
-          "target": {
-            "block": "7aaad815-a67d-48ae-a6d8-9fbf918fdce0",
-            "port": "6a3a77a1-0274-49f3-a8aa-8f4541647c49"
-          }
-        },
-        {
-          "source": {
-            "block": "baf58d2f-6717-46f8-b594-daaa5951363b",
-            "port": "061aa997-2f30-4591-8841-fb6abf5c3b2e"
-          },
-          "target": {
-            "block": "745a7b4c-53f9-417c-a7e6-ccb28844a99b",
-            "port": "6ae99fac-1a4b-4497-8332-951c1506f887"
-          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 23,
-        "y": 32.0001
+        "x": 0,
+        "y": 0
       },
       "zoom": 1
     }
   },
   "dependencies": {
-    "5f216edb7f65b6e68a19e35979b83925754f8a8d": {
-      "package": {
-        "name": "Bomba_x4",
-        "version": "0.1",
-        "description": "Bombeo de bits. Cuatro pulsaciones por segundo",
-        "author": "Juan Gonzalez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22113.28%22%20height=%2281.27%22%20viewBox=%220%200%20106.20044%2076.190928%22%3E%3Ctext%20y=%22443.842%22%20x=%22-155.758%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2240.397%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20transform=%22translate(238.359%20-394.146)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22443.842%22%20x=%22-155.758%22%20font-weight=%22700%22%20font-size=%2223.084%22%3E4%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M40.85%2073.768c-1.314-2.254-3.351-4.461-7.211-7.812-2.091-1.815-3.363-2.823-10.605-8.401-5.676-4.373-8.508-6.799-11.79-10.101-3.28-3.302-5.208-5.932-6.862-9.361-1.056-2.19-1.782-4.3-2.234-6.492-.573-2.785-.651-3.728-.648-7.829.004-5.381.182-6.276%201.954-9.866%201.317-2.666%202.317-4.07%204.4-6.179C9.877%205.68%2011.19%204.75%2014.03%203.35c3.155-1.556%205.437-1.964%2010.138-1.813%203.653.118%204.99.48%207.886%202.142%204.558%202.615%208.095%206.813%209.074%2010.77.16.647.325%201.177.367%201.177.042%200%20.411-.757.82-1.682%201.392-3.145%202.685-5.064%204.739-7.038C53.343.86%2063.258-.233%2071.275%204.234c3.274%201.824%205.938%204.48%208.002%207.978%201.625%202.753%202.456%206.41%202.598%2011.433.205%207.277-1.13%2012.32-4.683%2017.694-1.41%202.133-2.453%203.425-4.409%205.461-3.156%203.287-6.002%205.703-12.721%2010.798-4.24%203.215-6.753%205.282-10.39%208.55-2.915%202.618-7.431%207.176-7.866%207.938-.19.333-.362.605-.382.605-.02%200-.278-.415-.574-.923z%22%20fill=%22red%22%20stroke=%22#000%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M77.277%2053.462h25.759%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22/%3E%3Ctext%20y=%22463.171%22%20x=%22-164.04%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2227.48%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20transform=%22translate(238.359%20-394.146)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22463.171%22%20x=%22-164.04%22%20font-weight=%22700%22%20font-size=%2215.703%22%3ESeg%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
-              "type": "basic.code",
-              "data": {
-                "code": "//-- module bomba_x4(input wire clk, output wire clk_4hz)\n\n//-- Bombeo de bits a 4Hz (4 pulsaciones por segundo)\n\n//-- Constante para dividir y obtener una frecuencia de 8Hz\nlocalparam M = 1500000;\n\n//-- Calcular el numero de bits para almacenar M\nlocalparam N = $clog2(M);\n\n//-- Registro del divisor\nreg [N-1:0] divcounter;\n\n//-- Contador modulo M. tras M pulsos de relog vuelve a 0\nalways @(posedge clk)\n  divcounter <= (divcounter == M - 1) ? 0 : divcounter + 1;\n\n//-- Obtener la señal de 8Hz. La señal no tiene ciclo del 50%\nwire clk_8hz;\nassign clk_8hz = divcounter[N-1]; \n\n//-- Usamos un biestable T para dividir entre 2 y obtener una señal\n//-- de 4Hz y ciclo del 50%\nreg T = 0;\nalways @(posedge clk_8hz)\n  T <= ~T;\n  \n//-- Señal de salida de 4Hz y ciclo del 50%\nassign clk_4hz = T;\n  \n//endmodule\n \n\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "clk_4hz"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 192,
-                "y": 24
-              },
-              "size": {
-                "width": 592,
-                "height": 320
-              }
-            },
-            {
-              "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 0,
-                "y": 152
-              }
-            },
-            {
-              "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 856,
-                "y": 152
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-                "port": "out"
-              },
-              "target": {
-                "block": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
-                "port": "clk_4hz"
-              },
-              "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
-              }
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": 20,
-            "y": 0
-          },
-          "zoom": 1
-        }
-      }
-    },
-    "3328b68ed4be56cd405ce936b0fc257fbb204d23": {
+    "d8c0f3a985fc22f4da1ef074989e821b9733ec6a": {
       "package": {
         "name": "ROM_test1",
         "version": "0.1",
@@ -502,7 +297,7 @@
               "id": "f68aabfc-bcc2-4e18-a9f2-e41d7ba38356",
               "type": "basic.code",
               "data": {
-                "code": "\n\n//-- Memoria\nreg [4:0] rom [0:15];\nwire [3:0] addr;\nreg [4:0] data;\n\nassign addr = {a3, a2, a1, a0};\n\nalways @(negedge clk) begin\ndata <= rom[addr];\nend\n\nassign {d4, d3, d2, d1, d0} =  data;\n\n//-- Inicializacion de la memoria. \n  initial begin\n    rom[0] = 5'h00; \n    rom[1] = 5'h01;\n    rom[2] = 5'h03;\n    rom[3] = 5'h07;\n    rom[4] = 5'h0F; \n    rom[5] = 5'h1F;\n    rom[6] = 5'h1F;\n    rom[7] = 5'h1F;\n    rom[8] = 5'h1F;\n    rom[9] = 5'h0F;\n    rom[10] = 5'h07;\n    rom[11] = 5'h03;\n    rom[12] = 5'h01;\n    rom[13] = 5'h00;\n    rom[14] = 5'h00;\n    rom[15] = 5'h00;\n   end\n",
+                "code": "localparam ROMFILE = \"rom0.list\";\n\n//-- Memoria\nreg [4:0] rom [0:15];\nwire [3:0] addr;\nreg [4:0] data;\n\nassign addr = {a3, a2, a1, a0};\n\nalways @(negedge clk) begin\ndata <= rom[addr];\nend\n\nassign {d4, d3, d2, d1, d0} =  data;\n\n//-- Inicializacion de la memoria. \n  initial begin\n    $readmemh(ROMFILE, rom);\n   end\n",
                 "params": [],
                 "ports": {
                   "in": [
@@ -778,7 +573,7 @@
         }
       }
     },
-    "81a28e21f1cd93fd18569075f2487b025baf619c": {
+    "f7a1225bfba08f560985233aed5b39efe856af19": {
       "package": {
         "name": "Contador4",
         "version": "0.1",
@@ -853,7 +648,7 @@
               "type": "basic.input",
               "data": {
                 "name": "",
-                "clock": false
+                "clock": true
               },
               "position": {
                 "x": 88,
@@ -945,262 +740,95 @@
         }
       }
     },
-    "0d099e8e085caddc0fe08b1b91d41e9b802a7b35": {
+    "1e97b504b5a53218f2c298d157f9ede26fe313c9": {
       "package": {
-        "name": "Mux 2:1",
-        "version": "1.0.0",
-        "description": "Multiplexer 2:1",
-        "author": "Carlos Diaz",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Cpath%20d=%22M-162%20419.9h-24v-7.2l-41-11.8v9h-25v2h25v18h-25v2h25v9l41-11.7v-7.4h24v-1.9zm-63%2018.5v-35l37%2010.8v13.5l-37%2010.7z%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "ba573190-2ead-411a-a323-1b15a22d46db",
-              "type": "basic.code",
-              "data": {
-                "code": "reg _o;\n\nalways @(*) begin\n    case(sel0)\n        0: _o = in0;\n        1: _o = in1;\n        default: _o = in0;\n    endcase\nend\n\nassign o = _o;",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "in0"
-                    },
-                    {
-                      "name": "in1"
-                    },
-                    {
-                      "name": "sel0"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "o"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 312,
-                "y": 112
-              },
-              "size": {
-                "width": 384,
-                "height": 256
-              }
-            },
-            {
-              "id": "c3f73f68-1074-4355-b69f-6a20f7bea3e7",
-              "type": "basic.input",
-              "data": {
-                "name": "i0"
-              },
-              "position": {
-                "x": 80,
-                "y": 120
-              }
-            },
-            {
-              "id": "5fb29465-2ee7-45bb-afa4-9a3de895c774",
-              "type": "basic.input",
-              "data": {
-                "name": "i1"
-              },
-              "position": {
-                "x": 80,
-                "y": 208
-              }
-            },
-            {
-              "id": "061aa997-2f30-4591-8841-fb6abf5c3b2e",
-              "type": "basic.output",
-              "data": {
-                "name": "o"
-              },
-              "position": {
-                "x": 792,
-                "y": 208
-              }
-            },
-            {
-              "id": "67ed5e09-486d-4f97-929f-aefea9c43951",
-              "type": "basic.input",
-              "data": {
-                "name": "sel"
-              },
-              "position": {
-                "x": 80,
-                "y": 296
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "ba573190-2ead-411a-a323-1b15a22d46db",
-                "port": "o"
-              },
-              "target": {
-                "block": "061aa997-2f30-4591-8841-fb6abf5c3b2e",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "c3f73f68-1074-4355-b69f-6a20f7bea3e7",
-                "port": "out"
-              },
-              "target": {
-                "block": "ba573190-2ead-411a-a323-1b15a22d46db",
-                "port": "in0"
-              }
-            },
-            {
-              "source": {
-                "block": "5fb29465-2ee7-45bb-afa4-9a3de895c774",
-                "port": "out"
-              },
-              "target": {
-                "block": "ba573190-2ead-411a-a323-1b15a22d46db",
-                "port": "in1"
-              }
-            },
-            {
-              "source": {
-                "block": "67ed5e09-486d-4f97-929f-aefea9c43951",
-                "port": "out"
-              },
-              "target": {
-                "block": "ba573190-2ead-411a-a323-1b15a22d46db",
-                "port": "sel0"
-              }
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": -21.0375,
-            "y": 29.4792
-          },
-          "zoom": 1
-        }
-      }
-    },
-    "a627f5aacef2457b46054b0e895bd70d62c19a0c": {
-      "package": {
-        "name": "Botón de cambio",
+        "name": "Bomba_x4",
         "version": "0.1",
-        "description": "Bit que cambia con cada click del pulsador de entrada",
-        "author": "Juan Gonzalez Gomez (obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22105.814%22%20height=%2281.434%22%20viewBox=%220%200%2099.200648%2076.34447%22%3E%3Cg%20transform=%22translate(239.017%20-394.444)%22%3E%3Ctext%20y=%22470.481%22%20x=%22-218.228%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2238.042%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22470.481%22%20x=%22-218.228%22%20font-weight=%22700%22%20font-size=%2221.738%22%3EClick%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-225.073%20420.619h72.167s11.246-1.303%2011.246%2010.752c0%2012.056-10.101%2012.382-10.101%2012.382l-72.334-.326s-12.747-.254-13.399-11.006c-.532-8.787%207.632-11.802%2012.421-11.802z%22%20fill=%22#e6e6e6%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%223%22/%3E%3Ccircle%20cx=%22-156.522%22%20cy=%22431.518%22%20r=%2215.206%22%20fill=%22#b3b3b3%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20y=%22410.578%22%20x=%22-162.011%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2238.042%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22410.578%22%20x=%22-162.011%22%20font-weight=%22700%22%20font-size=%2221.738%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20y=%22410.578%22%20x=%22-233.434%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2238.042%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22410.578%22%20x=%22-233.434%22%20font-weight=%22700%22%20font-size=%2221.738%22%3E1%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+        "description": "Bombeo de bits. Cuatro pulsaciones por segundo",
+        "author": "Juan Gonzalez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22102.154%22%20height=%2281.27%22%20viewBox=%220%200%2095.769347%2076.190928%22%3E%3Cg%20fill=%22red%22%3E%3Ctext%20y=%22463.035%22%20x=%22-164.399%22%20style=%22line-height:125%25%22%20font-weight=%22400%22%20font-size=%2229.485%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(238.359%20-394.146)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22463.035%22%20x=%22-164.399%22%20font-weight=%22700%22%20font-size=%2216.849%22%3Ex4%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M40.85%2073.768c-1.314-2.254-3.351-4.461-7.211-7.812-2.091-1.815-3.363-2.823-10.605-8.401-5.676-4.373-8.508-6.799-11.79-10.101-3.28-3.302-5.208-5.932-6.862-9.361-1.056-2.19-1.782-4.3-2.234-6.492-.573-2.785-.651-3.728-.648-7.829.004-5.381.182-6.276%201.954-9.866%201.317-2.666%202.317-4.07%204.4-6.179C9.877%205.68%2011.19%204.75%2014.03%203.35c3.155-1.556%205.437-1.964%2010.138-1.813%203.653.118%204.99.48%207.886%202.142%204.558%202.615%208.095%206.813%209.074%2010.77.16.647.325%201.177.367%201.177.042%200%20.411-.757.82-1.682%201.392-3.145%202.685-5.064%204.739-7.038C53.343.86%2063.258-.233%2071.275%204.234c3.274%201.824%205.938%204.48%208.002%207.978%201.625%202.753%202.456%206.41%202.598%2011.433.205%207.277-1.13%2012.32-4.683%2017.694-1.41%202.133-2.453%203.425-4.409%205.461-3.156%203.287-6.002%205.703-12.721%2010.798-4.24%203.215-6.753%205.282-10.39%208.55-2.915%202.618-7.431%207.176-7.866%207.938-.19.333-.362.605-.382.605-.02%200-.278-.415-.574-.923z%22%20stroke=%22#000%22%20stroke-width=%223%22/%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
           "blocks": [
             {
-              "id": "a663544c-3e89-413a-9b21-bffd24395d8d",
+              "id": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
               "type": "basic.code",
               "data": {
-                "code": "//-- Debouncer Circuit\n//-- It produces a stable output when the\n//-- input signal is bouncing\n\nreg btn_prev = 0;\nreg btn_out_r = 0;\n\nreg [16:0] counter = 0;\n\n\nalways @(posedge clk) begin\n\n  //-- If btn_prev and btn_in are differents\n  if (btn_prev ^ in == 1'b1) begin\n    \n      //-- Reset the counter\n      counter <= 0;\n      \n      //-- Capture the button status\n      btn_prev <= in;\n  end\n    \n  //-- If no timeout, increase the counter\n  else if (counter[16] == 1'b0)\n      counter <= counter + 1;\n      \n  else\n    //-- Set the output to the stable value\n    btn_out_r <= btn_prev;\n\nend\n\nreg T = 0;\n\nalways @(posedge btn_out_r)\n  T <= ~T;\n\n\nassign out = T;\n\n\n\n",
+                "code": "//-- module bomba_x4(input wire clk, output wire clk_4hz)\n\n//-- Bombeo de bits a 4Hz (4 pulsaciones por segundo)\n\n//-- Constante para dividir y obtener una frecuencia de 8Hz\nlocalparam M = 1500000;\n\n//-- Calcular el numero de bits para almacenar M\nlocalparam N = $clog2(M);\n\n//-- Registro del divisor\nreg [N-1:0] divcounter;\n\n//-- Contador modulo M. tras M pulsos de relog vuelve a 0\nalways @(posedge clk)\n  divcounter <= (divcounter == M - 1) ? 0 : divcounter + 1;\n\n//-- Obtener la señal de 8Hz. La señal no tiene ciclo del 50%\nwire clk_8hz;\nassign clk_8hz = divcounter[N-1]; \n\n//-- Usamos un biestable T para dividir entre 2 y obtener una señal\n//-- de 4Hz y ciclo del 50%\nreg T = 0;\nalways @(posedge clk_8hz)\n  T <= ~T;\n  \n//-- Señal de salida de 4Hz y ciclo del 50%\nassign clk_4hz = T;\n  \n//endmodule\n \n\n",
                 "params": [],
                 "ports": {
                   "in": [
                     {
                       "name": "clk"
-                    },
-                    {
-                      "name": "in"
                     }
                   ],
                   "out": [
                     {
-                      "name": "out"
+                      "name": "clk_4hz"
                     }
                   ]
                 }
               },
               "position": {
-                "x": 320,
-                "y": 128
+                "x": 192,
+                "y": 24
               },
               "size": {
-                "width": 448,
-                "height": 304
+                "width": 592,
+                "height": 320
               }
             },
             {
-              "id": "83a877b3-9093-4fea-8a7e-632a7d13525a",
+              "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
               "type": "basic.input",
               "data": {
-                "name": "",
+                "name": "clk",
                 "clock": true
               },
               "position": {
-                "x": 72,
-                "y": 176
+                "x": 0,
+                "y": 152
               }
             },
             {
-              "id": "ffff8058-ea9e-432f-b958-332890cf0e48",
+              "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
               "type": "basic.output",
               "data": {
-                "name": ""
+                "name": "led"
               },
               "position": {
-                "x": 880,
-                "y": 248
-              }
-            },
-            {
-              "id": "c1e09958-aeb1-4453-af92-da0679a91f1d",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": 72,
-                "y": 328
+                "x": 856,
+                "y": 152
               }
             }
           ],
           "wires": [
             {
               "source": {
-                "block": "c1e09958-aeb1-4453-af92-da0679a91f1d",
+                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
                 "port": "out"
               },
               "target": {
-                "block": "a663544c-3e89-413a-9b21-bffd24395d8d",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "a663544c-3e89-413a-9b21-bffd24395d8d",
-                "port": "out"
-              },
-              "target": {
-                "block": "ffff8058-ea9e-432f-b958-332890cf0e48",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "83a877b3-9093-4fea-8a7e-632a7d13525a",
-                "port": "out"
-              },
-              "target": {
-                "block": "a663544c-3e89-413a-9b21-bffd24395d8d",
+                "block": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
                 "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "8709aff2-3586-4a6f-b6c5-d8751d3bc45d",
+                "port": "clk_4hz"
+              },
+              "target": {
+                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
+                "port": "in"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 0,
+            "x": 20,
             "y": 0
           },
           "zoom": 1
