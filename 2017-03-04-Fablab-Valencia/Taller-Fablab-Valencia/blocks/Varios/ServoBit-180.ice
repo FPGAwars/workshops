@@ -36,13 +36,17 @@
           "position": {
             "x": 304,
             "y": 80
+          },
+          "size": {
+            "width": 384,
+            "height": 256
           }
         },
         {
           "id": "f9f4add8-1ca6-49c0-adae-0d1a45025fc1",
           "type": "basic.input",
           "data": {
-            "name": "clk",
+            "name": "",
             "pins": [
               {
                 "index": "0",
@@ -50,7 +54,8 @@
                 "value": "21"
               }
             ],
-            "virtual": true
+            "virtual": true,
+            "clock": true
           },
           "position": {
             "x": 56,
