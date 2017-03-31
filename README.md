@@ -6,10 +6,6 @@
 
 [Find more information in the wiki](https://github.com/FPGAwars/workshops/wiki)
 
-## List of Workshops
-
-* [2016-10-28-Reset-ETSII-UPM](2016-10-28-Reset-ETSII-UPM)
-
 ## License
 
 ![](https://github.com/FPGAwars/workshops/raw/master/wiki/attribution-share-alike-creative-commons-license.png)  
