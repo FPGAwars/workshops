@@ -1,61 +1,21 @@
 {
   "version": "1.1",
   "package": {
-    "name": "Timer-secs",
-    "version": "0.1",
-    "description": "Temporizador: cuando se dispara, genera una señal a 1 activa por el numero de segundos indicados en el parametro",
-    "author": "Juan Gonzalez-Gomez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20505.89835%20399.4%22%20width=%22505.898%22%20height=%22399.4%22%3E%3Cg%20transform=%22translate(-92.9%20-90.8)%22%3E%3Cdefs%3E%3Cpath%20id=%22a%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3C/defs%3E%3Ccircle%20r=%22181.8%22%20cy=%22290.5%22%20cx=%22292.6%22%20fill=%22#fff%22/%3E%3Cpath%20d=%22M292.6%2090.8c-110.3%200-199.7%2089.4-199.7%20199.7%200%20110.3%2089.4%20199.7%20199.7%20199.7%20110.3%200%20199.7-89.4%20199.7-199.7%200-110.3-89.4-199.7-199.7-199.7zm0%20376.5c-97.7%200-176.8-79.2-176.8-176.8%200-97.6%2079.2-176.8%20176.8-176.8%2097.6%200%20176.8%2079.2%20176.8%20176.8%200%2097.6-79.2%20176.8-176.8%20176.8z%22%20fill=%22#333%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M286.6%20134.9h12v47.2h-12zM137.098%20296.422v-12h47.2v12zM298.567%20445.971h-12v-47.2h12zM448.069%20284.455v12h-47.2v-12zM178.383%20184.748l8.485-8.485%2033.375%2033.375-8.485%208.485zM186.891%20404.642l-8.485-8.485%2033.375-33.376%208.486%208.485zM406.742%20396.176l-8.485%208.486-33.376-33.376%208.486-8.485zM398.319%20176.283l8.485%208.485-33.375%2033.376-8.486-8.485z%22/%3E%3Ccircle%20r=%2212.4%22%20cy=%22290.5%22%20cx=%22292.6%22%20fill=%22#333%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M294.44%20238.557l7.06.748-5.47%2051.609-7.06-.748z%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M376.043%20242.386l3.307%206.283-85.216%2044.857-3.307-6.283z%22/%3E%3Cpath%20d=%22M300.2%20263.8c-2.8%200-5%202.3-5%205%200%201.7.8%203.2%202.1%204.1l-38.1%20107.5%202.6.9%2038.1-107.5h.3c2.8%200%205-2.3%205-5s-2.2-5-5-5z%22%20fill=%22#cf000f%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22434.428%22%20y=%22486.657%22%20font-weight=%22400%22%20font-size=%2276.403%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22434.428%22%20y=%22486.657%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ESEG%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+    "name": "",
+    "version": "",
+    "description": "",
+    "author": "",
+    "image": ""
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "CLK",
-                "value": "21"
-              }
-            ],
-            "virtual": true,
-            "clock": true
-          },
-          "position": {
-            "x": -200,
-            "y": 168
-          }
-        },
-        {
-          "id": "02360835-1c15-44a2-b7ea-03077cb31932",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": true,
-            "clock": false
-          },
-          "position": {
-            "x": -200,
-            "y": 256
-          }
-        },
-        {
-          "id": "cc69f080-9852-4e22-84bc-50a3a97c5d4d",
+          "id": "37ce1ad6-9ccd-4f5d-8291-a2392a88721a",
           "type": "basic.output",
           "data": {
-            "name": "",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",
@@ -63,179 +23,71 @@
                 "value": "104"
               }
             ],
-            "virtual": true
+            "virtual": false
           },
           "position": {
-            "x": 208,
-            "y": 360
+            "x": 600,
+            "y": 256
           }
         },
         {
-          "id": "09ba481a-a3e2-4ffb-81f5-b6f40ca89635",
+          "id": "cbabc311-e8f0-411c-b715-961576358e27",
+          "type": "basic.input",
+          "data": {
+            "name": "Boton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 192,
+            "y": 272
+          }
+        },
+        {
+          "id": "264fe3ed-d7e8-432c-8fd7-6dc524e4d086",
           "type": "basic.constant",
           "data": {
             "name": "SEG",
-            "value": "2",
+            "value": "5",
             "local": false
           },
           "position": {
-            "x": 568,
-            "y": 336
+            "x": 416,
+            "y": 144
           }
         },
         {
-          "id": "b62a7295-b9b4-455d-8511-754726bb593a",
-          "type": "5c19aaf28565ccfe008e9ccd37697b8b9dea2e32",
+          "id": "b682ec3a-64fd-4cbc-bafa-889f2a89c8f8",
+          "type": "f10b228cb70c96ec87525e4c6be92af355bf35fc",
           "position": {
-            "x": -16,
-            "y": 240
+            "x": 416,
+            "y": 256
           },
           "size": {
             "width": 96,
-            "height": 96
+            "height": 64
           }
         },
         {
-          "id": "90d91991-fb6d-4217-a717-a8ac53f003fb",
-          "type": "04dce6392817ac983fd0bcb6088ce235fa202b94",
+          "id": "8c6109ad-6a17-46cc-9eba-b5a25e925c36",
+          "type": "basic.info",
+          "data": {
+            "info": "Ejemplo de uso del temporizador\nAl apretar el botón el led permanece encendido\ndurante 5 segundos. Luego se apaga",
+            "readonly": true
+          },
           "position": {
             "x": 152,
-            "y": 208
+            "y": 48
           },
           "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "437af799-3831-4394-a6db-0879e11bbfc4",
-          "type": "ecfb972b7d14665d28adab068486005ad18fa6f6",
-          "position": {
-            "x": 400,
-            "y": 184
-          },
-          "size": {
-            "width": 96,
-            "height": 128
-          }
-        },
-        {
-          "id": "75024ef5-8548-4059-9a06-e19dd334a212",
-          "type": "36d45a23315e6b3fcb068d28cf621902ea41ad80",
-          "position": {
-            "x": 568,
-            "y": 448
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "3434da3c-d362-4776-bf0c-0f04b013be80",
-          "type": "basic.info",
-          "data": {
-            "info": "Temporizador (en segundos)\n\nCuando se activa la entrada trig (a uno), activa la salida y comienza a contador segundos\nCuando se llega a los segundos especificados en SEG, la salida se pone a cero y finaliza",
-            "readonly": true
-          },
-          "position": {
-            "x": -160,
-            "y": 16
-          },
-          "size": {
-            "width": 704,
-            "height": 96
-          }
-        },
-        {
-          "id": "692eb1db-b10c-49fe-9f79-e2c33d80ceff",
-          "type": "basic.info",
-          "data": {
-            "info": "Biestable de estado\n1=Funcionando\n0 Desactivado",
-            "readonly": true
-          },
-          "position": {
-            "x": -64,
-            "y": 344
-          },
-          "size": {
-            "width": 176,
-            "height": 80
-          }
-        },
-        {
-          "id": "5b017758-d418-42f0-9823-90f88c102302",
-          "type": "basic.info",
-          "data": {
-            "info": "Generador de pulsos. 1 cada seg.\n",
-            "readonly": true
-          },
-          "position": {
-            "x": 32,
-            "y": 152
-          },
-          "size": {
-            "width": 272,
-            "height": 32
-          }
-        },
-        {
-          "id": "1875eda4-3999-4eaa-8639-795323fdfb58",
-          "type": "basic.info",
-          "data": {
-            "info": "Contador de segundos",
-            "readonly": true
-          },
-          "position": {
-            "x": 360,
-            "y": 136
-          },
-          "size": {
-            "width": 176,
-            "height": 32
-          }
-        },
-        {
-          "id": "c1499be2-95e6-4dee-b480-dc146134f62f",
-          "type": "basic.info",
-          "data": {
-            "info": "Comparador. Mientras contador < SEG, la señal eq está a 1\nCuando contador = SEG, eq se pone a 1 y se resetea el \nbiestable de estado, desactivando el temporizador",
-            "readonly": true
-          },
-          "position": {
-            "x": 568,
-            "y": 152
-          },
-          "size": {
-            "width": 480,
-            "height": 64
-          }
-        },
-        {
-          "id": "b3f00fb0-88e1-495e-afb1-ac3337a4bdd0",
-          "type": "basic.info",
-          "data": {
-            "info": "Segundos a esperar",
-            "readonly": true
-          },
-          "position": {
-            "x": 528,
-            "y": 288
-          },
-          "size": {
-            "width": 176,
-            "height": 32
-          }
-        },
-        {
-          "id": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
-          "type": "199eb7da69d6b294ed346659507821b7b6b08bb2",
-          "position": {
-            "x": 752,
-            "y": 232
-          },
-          "size": {
-            "width": 96,
+            "width": 368,
             "height": 64
           }
         }
@@ -243,165 +95,423 @@
       "wires": [
         {
           "source": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "8b83149e-b9df-4732-b02b-2133168ee773"
+            "block": "b682ec3a-64fd-4cbc-bafa-889f2a89c8f8",
+            "port": "cc69f080-9852-4e22-84bc-50a3a97c5d4d"
           },
           "target": {
-            "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
-            "port": "0abb181e-521d-4241-8c61-9594d956ecd1"
-          }
-        },
-        {
-          "source": {
-            "block": "02360835-1c15-44a2-b7ea-03077cb31932",
-            "port": "out"
-          },
-          "target": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "65817f7c-a972-414d-a223-6048e944cb30"
-          }
-        },
-        {
-          "source": {
-            "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
-            "port": "out"
-          },
-          "target": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "e39851c3-073d-42ce-a16b-fd9debb0b854"
-          }
-        },
-        {
-          "source": {
-            "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
-            "port": "out"
-          },
-          "target": {
-            "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
-            "port": "cb7c1e8d-cbe7-4458-92c5-6aa97febfde2"
-          }
-        },
-        {
-          "source": {
-            "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
-            "port": "out"
-          },
-          "target": {
-            "block": "437af799-3831-4394-a6db-0879e11bbfc4",
-            "port": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5"
-          }
-        },
-        {
-          "source": {
-            "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
-            "port": "70887b0b-826c-4150-a873-605b77da8272"
-          },
-          "target": {
-            "block": "437af799-3831-4394-a6db-0879e11bbfc4",
-            "port": "d5c1d701-44ef-44d4-9328-8ba2dd4d1c28"
-          }
-        },
-        {
-          "source": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "8b83149e-b9df-4732-b02b-2133168ee773"
-          },
-          "target": {
-            "block": "437af799-3831-4394-a6db-0879e11bbfc4",
-            "port": "4368018b-53ec-4e81-8249-908973ae5d32"
-          },
-          "vertices": [
-            {
-              "x": 304,
-              "y": 280
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "09ba481a-a3e2-4ffb-81f5-b6f40ca89635",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "75024ef5-8548-4059-9a06-e19dd334a212",
-            "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-          }
-        },
-        {
-          "source": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "8b83149e-b9df-4732-b02b-2133168ee773"
-          },
-          "target": {
-            "block": "cc69f080-9852-4e22-84bc-50a3a97c5d4d",
+            "block": "37ce1ad6-9ccd-4f5d-8291-a2392a88721a",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "437af799-3831-4394-a6db-0879e11bbfc4",
-            "port": "22f45b86-88ca-4a64-98ae-7e4a686b8daa"
+            "block": "cbabc311-e8f0-411c-b715-961576358e27",
+            "port": "out"
           },
           "target": {
-            "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
-            "port": "61f5252d-15b4-4017-be42-6941a903ecd0"
-          },
-          "size": 8
+            "block": "b682ec3a-64fd-4cbc-bafa-889f2a89c8f8",
+            "port": "02360835-1c15-44a2-b7ea-03077cb31932"
+          }
         },
         {
           "source": {
-            "block": "75024ef5-8548-4059-9a06-e19dd334a212",
-            "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
+            "block": "264fe3ed-d7e8-432c-8fd7-6dc524e4d086",
+            "port": "constant-out"
           },
           "target": {
-            "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
-            "port": "9a4d0d89-e54c-41f9-8523-281344a1c62d"
-          },
-          "size": 8
-        },
-        {
-          "source": {
-            "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
-            "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
-          },
-          "target": {
-            "block": "437af799-3831-4394-a6db-0879e11bbfc4",
-            "port": "edf0c735-008b-40b9-a06b-2a2c4ed81a52"
-          },
-          "vertices": [
-            {
-              "x": 872,
-              "y": 536
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
-            "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
-          },
-          "target": {
-            "block": "b62a7295-b9b4-455d-8511-754726bb593a",
-            "port": "be0b69c5-4e61-4f16-8129-fb60ad18243d"
-          },
-          "vertices": [
-            {
-              "x": -88,
-              "y": 536
-            }
-          ]
+            "block": "b682ec3a-64fd-4cbc-bafa-889f2a89c8f8",
+            "port": "09ba481a-a3e2-4ffb-81f5-b6f40ca89635"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 171.4103,
-        "y": 79.5256
+        "x": 0,
+        "y": 0
       },
-      "zoom": 0.6571
+      "zoom": 1
     }
   },
   "dependencies": {
+    "f10b228cb70c96ec87525e4c6be92af355bf35fc": {
+      "package": {
+        "name": "Timer-secs",
+        "version": "0.1",
+        "description": "Temporizador: cuando se dispara, genera una señal a 1 activa por el numero de segundos indicados en el parametro",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20505.89835%20399.4%22%20width=%22505.898%22%20height=%22399.4%22%3E%3Cg%20transform=%22translate(-92.9%20-90.8)%22%3E%3Cdefs%3E%3Cpath%20id=%22a%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3C/defs%3E%3Ccircle%20r=%22181.8%22%20cy=%22290.5%22%20cx=%22292.6%22%20fill=%22#fff%22/%3E%3Cpath%20d=%22M292.6%2090.8c-110.3%200-199.7%2089.4-199.7%20199.7%200%20110.3%2089.4%20199.7%20199.7%20199.7%20110.3%200%20199.7-89.4%20199.7-199.7%200-110.3-89.4-199.7-199.7-199.7zm0%20376.5c-97.7%200-176.8-79.2-176.8-176.8%200-97.6%2079.2-176.8%20176.8-176.8%2097.6%200%20176.8%2079.2%20176.8%20176.8%200%2097.6-79.2%20176.8-176.8%20176.8z%22%20fill=%22#333%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M286.6%20134.9h12v47.2h-12zM137.098%20296.422v-12h47.2v12zM298.567%20445.971h-12v-47.2h12zM448.069%20284.455v12h-47.2v-12zM178.383%20184.748l8.485-8.485%2033.375%2033.375-8.485%208.485zM186.891%20404.642l-8.485-8.485%2033.375-33.376%208.486%208.485zM406.742%20396.176l-8.485%208.486-33.376-33.376%208.486-8.485zM398.319%20176.283l8.485%208.485-33.375%2033.376-8.486-8.485z%22/%3E%3Ccircle%20r=%2212.4%22%20cy=%22290.5%22%20cx=%22292.6%22%20fill=%22#333%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M294.44%20238.557l7.06.748-5.47%2051.609-7.06-.748z%22/%3E%3Cpath%20fill=%22#333%22%20d=%22M376.043%20242.386l3.307%206.283-85.216%2044.857-3.307-6.283z%22/%3E%3Cpath%20d=%22M300.2%20263.8c-2.8%200-5%202.3-5%205%200%201.7.8%203.2%202.1%204.1l-38.1%20107.5%202.6.9%2038.1-107.5h.3c2.8%200%205-2.3%205-5s-2.2-5-5-5z%22%20fill=%22#cf000f%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22434.428%22%20y=%22486.657%22%20font-weight=%22400%22%20font-size=%2276.403%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22434.428%22%20y=%22486.657%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ESEG%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": -200,
+                "y": 168
+              }
+            },
+            {
+              "id": "02360835-1c15-44a2-b7ea-03077cb31932",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": -200,
+                "y": 256
+              }
+            },
+            {
+              "id": "cc69f080-9852-4e22-84bc-50a3a97c5d4d",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 208,
+                "y": 360
+              }
+            },
+            {
+              "id": "09ba481a-a3e2-4ffb-81f5-b6f40ca89635",
+              "type": "basic.constant",
+              "data": {
+                "name": "SEG",
+                "value": "2",
+                "local": false
+              },
+              "position": {
+                "x": 568,
+                "y": 336
+              }
+            },
+            {
+              "id": "b62a7295-b9b4-455d-8511-754726bb593a",
+              "type": "5c19aaf28565ccfe008e9ccd37697b8b9dea2e32",
+              "position": {
+                "x": -16,
+                "y": 240
+              },
+              "size": {
+                "width": 96,
+                "height": 96
+              }
+            },
+            {
+              "id": "90d91991-fb6d-4217-a717-a8ac53f003fb",
+              "type": "04dce6392817ac983fd0bcb6088ce235fa202b94",
+              "position": {
+                "x": 152,
+                "y": 208
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "437af799-3831-4394-a6db-0879e11bbfc4",
+              "type": "ecfb972b7d14665d28adab068486005ad18fa6f6",
+              "position": {
+                "x": 400,
+                "y": 184
+              },
+              "size": {
+                "width": 96,
+                "height": 128
+              }
+            },
+            {
+              "id": "75024ef5-8548-4059-9a06-e19dd334a212",
+              "type": "36d45a23315e6b3fcb068d28cf621902ea41ad80",
+              "position": {
+                "x": 568,
+                "y": 448
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "3434da3c-d362-4776-bf0c-0f04b013be80",
+              "type": "basic.info",
+              "data": {
+                "info": "Temporizador (en segundos)\n\nCuando se activa la entrada trig (a uno), activa la salida y comienza a contador segundos\nCuando se llega a los segundos especificados en SEG, la salida se pone a cero y finaliza",
+                "readonly": true
+              },
+              "position": {
+                "x": -160,
+                "y": 16
+              },
+              "size": {
+                "width": 704,
+                "height": 96
+              }
+            },
+            {
+              "id": "692eb1db-b10c-49fe-9f79-e2c33d80ceff",
+              "type": "basic.info",
+              "data": {
+                "info": "Biestable de estado\n1=Funcionando\n0 Desactivado",
+                "readonly": true
+              },
+              "position": {
+                "x": -64,
+                "y": 344
+              },
+              "size": {
+                "width": 176,
+                "height": 80
+              }
+            },
+            {
+              "id": "5b017758-d418-42f0-9823-90f88c102302",
+              "type": "basic.info",
+              "data": {
+                "info": "Generador de pulsos. 1 cada seg.\n",
+                "readonly": true
+              },
+              "position": {
+                "x": 32,
+                "y": 152
+              },
+              "size": {
+                "width": 272,
+                "height": 32
+              }
+            },
+            {
+              "id": "1875eda4-3999-4eaa-8639-795323fdfb58",
+              "type": "basic.info",
+              "data": {
+                "info": "Contador de segundos",
+                "readonly": true
+              },
+              "position": {
+                "x": 360,
+                "y": 136
+              },
+              "size": {
+                "width": 176,
+                "height": 32
+              }
+            },
+            {
+              "id": "c1499be2-95e6-4dee-b480-dc146134f62f",
+              "type": "basic.info",
+              "data": {
+                "info": "Comparador. Mientras contador < SEG, la señal eq está a 1\nCuando contador = SEG, eq se pone a 1 y se resetea el \nbiestable de estado, desactivando el temporizador",
+                "readonly": true
+              },
+              "position": {
+                "x": 568,
+                "y": 152
+              },
+              "size": {
+                "width": 480,
+                "height": 64
+              }
+            },
+            {
+              "id": "b3f00fb0-88e1-495e-afb1-ac3337a4bdd0",
+              "type": "basic.info",
+              "data": {
+                "info": "Segundos a esperar",
+                "readonly": true
+              },
+              "position": {
+                "x": 528,
+                "y": 288
+              },
+              "size": {
+                "width": 176,
+                "height": 32
+              }
+            },
+            {
+              "id": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
+              "type": "199eb7da69d6b294ed346659507821b7b6b08bb2",
+              "position": {
+                "x": 752,
+                "y": 232
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "8b83149e-b9df-4732-b02b-2133168ee773"
+              },
+              "target": {
+                "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
+                "port": "0abb181e-521d-4241-8c61-9594d956ecd1"
+              }
+            },
+            {
+              "source": {
+                "block": "02360835-1c15-44a2-b7ea-03077cb31932",
+                "port": "out"
+              },
+              "target": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "65817f7c-a972-414d-a223-6048e944cb30"
+              }
+            },
+            {
+              "source": {
+                "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
+                "port": "out"
+              },
+              "target": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "e39851c3-073d-42ce-a16b-fd9debb0b854"
+              }
+            },
+            {
+              "source": {
+                "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
+                "port": "out"
+              },
+              "target": {
+                "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
+                "port": "cb7c1e8d-cbe7-4458-92c5-6aa97febfde2"
+              }
+            },
+            {
+              "source": {
+                "block": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5",
+                "port": "out"
+              },
+              "target": {
+                "block": "437af799-3831-4394-a6db-0879e11bbfc4",
+                "port": "e7af5179-c319-4f3f-a9c7-49fa5fb312e5"
+              }
+            },
+            {
+              "source": {
+                "block": "90d91991-fb6d-4217-a717-a8ac53f003fb",
+                "port": "70887b0b-826c-4150-a873-605b77da8272"
+              },
+              "target": {
+                "block": "437af799-3831-4394-a6db-0879e11bbfc4",
+                "port": "d5c1d701-44ef-44d4-9328-8ba2dd4d1c28"
+              }
+            },
+            {
+              "source": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "8b83149e-b9df-4732-b02b-2133168ee773"
+              },
+              "target": {
+                "block": "437af799-3831-4394-a6db-0879e11bbfc4",
+                "port": "4368018b-53ec-4e81-8249-908973ae5d32"
+              },
+              "vertices": [
+                {
+                  "x": 304,
+                  "y": 280
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "09ba481a-a3e2-4ffb-81f5-b6f40ca89635",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "75024ef5-8548-4059-9a06-e19dd334a212",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            },
+            {
+              "source": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "8b83149e-b9df-4732-b02b-2133168ee773"
+              },
+              "target": {
+                "block": "cc69f080-9852-4e22-84bc-50a3a97c5d4d",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "437af799-3831-4394-a6db-0879e11bbfc4",
+                "port": "22f45b86-88ca-4a64-98ae-7e4a686b8daa"
+              },
+              "target": {
+                "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
+                "port": "61f5252d-15b4-4017-be42-6941a903ecd0"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "75024ef5-8548-4059-9a06-e19dd334a212",
+                "port": "32038fb9-c309-483d-a68c-de6fd7ab6a0f"
+              },
+              "target": {
+                "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
+                "port": "9a4d0d89-e54c-41f9-8523-281344a1c62d"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
+                "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
+              },
+              "target": {
+                "block": "437af799-3831-4394-a6db-0879e11bbfc4",
+                "port": "edf0c735-008b-40b9-a06b-2a2c4ed81a52"
+              },
+              "vertices": [
+                {
+                  "x": 872,
+                  "y": 536
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "2bb99e0b-f88a-451e-9b6c-1f9fc1a927b7",
+                "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
+              },
+              "target": {
+                "block": "b62a7295-b9b4-455d-8511-754726bb593a",
+                "port": "be0b69c5-4e61-4f16-8129-fb60ad18243d"
+              },
+              "vertices": [
+                {
+                  "x": -88,
+                  "y": 536
+                }
+              ]
+            }
+          ]
+        },
+        "state": {
+          "pan": {
+            "x": 171.4103,
+            "y": 79.5256
+          },
+          "zoom": 0.6571
+        }
+      }
+    },
     "5c19aaf28565ccfe008e9ccd37697b8b9dea2e32": {
       "package": {
         "name": "Chincheta-D-0-set-rst",
