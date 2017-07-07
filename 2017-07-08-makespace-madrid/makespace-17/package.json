@@ -1,0 +1,23 @@
+{
+  "name": "Latuino-collection",
+  "version": "0.0.1",
+  "description": "Latuino soft-processor",
+  "keywords": "Latuino, collection",
+  "license": "GPL-2.0",
+  "authors" : [
+    {
+      "name": "Jesús Arroyo",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Juan González",
+      "email": "",
+      "url": ""
+    },
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
