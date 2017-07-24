@@ -103,7 +103,7 @@
           },
           "position": {
             "x": 224,
-            "y": 168
+            "y": 216
           }
         },
         {
@@ -122,7 +122,7 @@
           },
           "position": {
             "x": 576,
-            "y": 168
+            "y": 216
           }
         },
         {
@@ -141,7 +141,7 @@
           },
           "position": {
             "x": 224,
-            "y": 248
+            "y": 296
           }
         },
         {
@@ -160,7 +160,7 @@
           },
           "position": {
             "x": 576,
-            "y": 248
+            "y": 296
           }
         },
         {
@@ -180,7 +180,7 @@
           "type": "6cb5a2babe794f6da05ca770a5f298dc46506e06",
           "position": {
             "x": 392,
-            "y": 168
+            "y": 216
           },
           "size": {
             "width": 96,
@@ -216,7 +216,7 @@
           "type": "b734f60cce5a9de8621cbbd63cf95b689e40512c",
           "position": {
             "x": 48,
-            "y": 168
+            "y": 216
           },
           "size": {
             "width": 96,
@@ -228,7 +228,7 @@
           "type": "fec7ff39e4c71bcdf0ca03690e64aab18405ad25",
           "position": {
             "x": 48,
-            "y": 248
+            "y": 296
           },
           "size": {
             "width": 96,
@@ -252,11 +252,91 @@
           "type": "1eae2123c4e8002d2d975a0fcff9f01fbd91a6a9",
           "position": {
             "x": 392,
-            "y": 248
+            "y": 296
           },
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "cdf0457c-3b6a-4d1c-a1c1-bf4db4b86a7a",
+          "type": "basic.info",
+          "data": {
+            "info": "\n  Dibujos asociados los bits 0 y 1",
+            "readonly": false
+          },
+          "position": {
+            "x": 208,
+            "y": -168
+          },
+          "size": {
+            "width": 288,
+            "height": 64
+          }
+        },
+        {
+          "id": "ab6953df-bcfc-466a-90ed-ee4cda6c1e1f",
+          "type": "basic.info",
+          "data": {
+            "info": "Clásicos",
+            "readonly": true
+          },
+          "position": {
+            "x": 40,
+            "y": -72
+          },
+          "size": {
+            "width": 96,
+            "height": 32
+          }
+        },
+        {
+          "id": "9f290962-0d33-4642-a506-881d4a341224",
+          "type": "basic.info",
+          "data": {
+            "info": "Con patitas",
+            "readonly": true
+          },
+          "position": {
+            "x": 48,
+            "y": 168
+          },
+          "size": {
+            "width": 128,
+            "height": 32
+          }
+        },
+        {
+          "id": "187b9a56-5452-47b0-86f5-a7cf4187104c",
+          "type": "basic.info",
+          "data": {
+            "info": "Antorcha",
+            "readonly": true
+          },
+          "position": {
+            "x": 400,
+            "y": -72
+          },
+          "size": {
+            "width": 128,
+            "height": 32
+          }
+        },
+        {
+          "id": "a6364551-5059-420d-b3f3-e0ed00101adc",
+          "type": "basic.info",
+          "data": {
+            "info": "Switch",
+            "readonly": true
+          },
+          "position": {
+            "x": 400,
+            "y": 168
+          },
+          "size": {
+            "width": 128,
+            "height": 32
           }
         }
       ],
@@ -345,8 +425,8 @@
     },
     "state": {
       "pan": {
-        "x": 163.5,
-        "y": 179
+        "x": 132.5,
+        "y": 238.5
       },
       "zoom": 1
     }
