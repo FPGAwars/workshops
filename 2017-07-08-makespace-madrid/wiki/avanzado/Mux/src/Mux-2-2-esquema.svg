@@ -132,8 +132,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="320.32449"
-     inkscape:cy="786.23487"
+     inkscape:cx="248.67314"
+     inkscape:cy="833.89628"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -152,7 +152,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,10 +163,10 @@
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4483"
-       width="522.14288"
-       height="312.14285"
-       x="37.142857"
-       y="28.790775"
+       width="495.00003"
+       height="330.71429"
+       x="60.714287"
+       y="40.219345"
        inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux2-2-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -545,5 +545,32 @@
        inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux2-2-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90"
+       y="343.79077"
+       id="text4246"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4248"
+         x="90"
+         y="343.79077">Sel</tspan></text>
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 127.27922,336.66913 199.00005,0 0,-17.67767"
+       id="path4254"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 258.09398,336.42928 0,-154.40385 68.18529,0 0,-12.03147"
+       id="path4256"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4258"
+       cx="258.25763"
+       cy="336.39539"
+       r="2.3214288" />
   </g>
 </svg>
