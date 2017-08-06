@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Mux-4-1-esquema.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path4301" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4574"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4576" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4528"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4530" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4183" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4171" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4165" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="StopL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="StopL">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.8,0.8)"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,5.65 0,-5.65"
+         id="path4325" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="10.340873"
+     inkscape:cy="672.63119"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4483"
+       width="521.26398"
+       height="330.71429"
+       x="52.857143"
+       y="48.790752"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path4239-6"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 347.31853,104.34413 c 0,-7.610291 -4.15267,-14.63929 -10.8865,-18.426968 -6.73384,-3.787677 -15.02013,-3.755408 -21.72305,0.0846 -6.70292,3.84 -10.79849,10.901117 -10.73681,18.511168 l 0,44.62483 c -0.0617,7.61007 4.03389,14.67117 10.73681,18.51118 6.70291,3.84001 14.98921,3.87229 21.72304,0.0846 6.73383,-3.78768 10.88651,-10.81667 10.88651,-18.42697 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccsscc"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="313.08313"
+       y="113.83536"
+       id="text4266"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268"
+         x="313.08313"
+         y="113.83536">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="311.95477"
+       y="152.86707"
+       id="text4266-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268-5"
+         x="311.95477"
+         y="152.86707">1</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 347.61091,124.35195 17.74051,0"
+       id="path4311"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4293"
+       transform="translate(-1.2626907,6.4880435)"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4242-5"
+         y="143.12914"
+         x="84.825607"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="143.12914"
+           x="84.825607"
+           id="tspan4244-3"
+           sodipodi:role="line">i</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4242-6-5"
+         y="147.61359"
+         x="90.54393"
+         style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="147.61359"
+           x="90.54393"
+           id="tspan4244-7-6"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g4293-2"
+       transform="translate(-1.2626909,55.33304)"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4242-5-70"
+         y="55.498402"
+         x="84.825607"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="55.498402"
+           x="84.825607"
+           id="tspan4244-3-9"
+           sodipodi:role="line">i</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4242-6-5-3"
+         y="59.982853"
+         x="90.54393"
+         style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="59.982853"
+           x="90.54393"
+           id="tspan4244-7-6-6"
+           sodipodi:role="line">0</tspan></text>
+    </g>
+    <path
+       id="path4239-6-6"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 347.83698,217.7497 c 0,-7.61029 -4.15267,-14.63929 -10.8865,-18.42697 -6.73384,-3.78768 -15.02013,-3.75541 -21.72305,0.0846 -6.70292,3.84 -10.79849,10.90112 -10.73681,18.51117 l 0,44.62483 c -0.0617,7.61007 4.03389,14.67116 10.73681,18.51117 6.70291,3.84001 14.98921,3.87229 21.72304,0.0846 6.73383,-3.78768 10.88651,-10.81666 10.88651,-18.42696 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccsscc"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="313.60159"
+       y="227.24094"
+       id="text4266-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268-6"
+         x="313.60159"
+         y="227.24094">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="312.47324"
+       y="266.27264"
+       id="text4266-7-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268-5-6"
+         x="312.47324"
+         y="266.27264">1</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 348.12936,237.75752 17.74051,0"
+       id="path4311-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 278.53571,258.43362 -167.82597,0"
+       id="path4471"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 111.11678,106.35434 167.68532,0"
+       id="path4479"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 304.06604,107.14904 -26.34196,0"
+       id="path4292"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 304.06604,145.318 -26.34196,0"
+       id="path4292-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 304.58449,220.55461 -26.34196,0"
+       id="path4292-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 304.58449,258.72357 -26.34196,0"
+       id="path4292-3-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90"
+       y="319.50507"
+       id="text4246"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4248"
+         x="90"
+         y="319.50507">Sel</tspan></text>
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4258"
+       cx="258.97192"
+       cy="314.25253"
+       r="2.3214288"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path4239-6-6-3"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 501.40841,160.69965 c 0,-7.61029 -4.15267,-14.63929 -10.8865,-18.42697 -6.73384,-3.78768 -15.02013,-3.75541 -21.72305,0.0846 -6.70292,3.84 -10.79849,10.90112 -10.73681,18.51117 l 0,44.62483 c -0.0617,7.61007 4.03389,14.67115 10.73681,18.51116 6.70291,3.84001 14.98921,3.87229 21.72304,0.0846 6.73383,-3.78768 10.88651,-10.81665 10.88651,-18.42695 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccsscc"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="467.173"
+       y="170.1909"
+       id="text4266-0-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268-6-7"
+         x="467.173"
+         y="170.1909">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="466.04471"
+       y="209.22261"
+       id="text4266-7-2-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4268-5-6-3"
+         x="466.04471"
+         y="209.22261">1</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 501.70079,180.70747 17.74051,0"
+       id="path4311-2-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 458.15592,163.50456 -26.34196,0"
+       id="path4292-7-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 458.15592,201.67352 -26.34196,0"
+       id="path4292-3-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4293-0"
+       transform="translate(-1.2626909,75.429676)"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4363">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="84.825607"
+           y="143.12914"
+           id="text4242-5-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4244-3-2"
+             x="84.825607"
+             y="143.12914">i</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="90.54393"
+           y="147.61359"
+           id="text4242-6-5-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4244-7-6-1"
+             x="90.54393"
+             y="147.61359">2</tspan></text>
+      </g>
+      <g
+         transform="translate(-2.4804687e-8,41.921327)"
+         id="g4363-8">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="84.825607"
+           y="143.12914"
+           id="text4242-5-6-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4244-3-2-9"
+             x="84.825607"
+             y="143.12914">i</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="90.54393"
+           y="147.61359"
+           id="text4242-6-5-6-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4244-7-6-1-0"
+             x="90.54393"
+             y="147.61359">3</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="120.35266"
+       y="324.95877"
+       id="text4242-6-5-3-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4244-7-6-6-9"
+         x="120.35266"
+         y="324.95877">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90"
+       y="343.07651"
+       id="text4246-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4248-2"
+         x="90"
+         y="343.07651">Sel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.91251373px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="120.35266"
+       y="348.53021"
+       id="text4242-6-5-3-5-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4244-7-6-6-9-9"
+         x="120.35266"
+         y="348.53021">1</tspan></text>
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 111.11678,145.75029 167.68532,0"
+       id="path4479-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 278.53571,220.57648 -167.82597,0"
+       id="path4471-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 140.71429,314.14792 185.71428,0 0,-29.64285"
+       id="path4487"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 257.85714,314.25996 0,-128.65133 68.57143,0 0,-16.62483"
+       id="path4489"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 366.1803,124.53709 25.75889,0 0,38.3858 41.41625,0"
+       id="path4497"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 366.68537,237.1691 25.25382,0 0,-35.86042 41.92133,0"
+       id="path4499"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 141.42857,338.79078 338.57143,0 0,-112.85715"
+       id="path4503"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 519.21841,180.60056 33.84011,0"
+       id="path4253"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="534.05927"
+       y="174.12802"
+       id="text4242-5-70-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Mux/mux4-1-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4244-3-9-7"
+         x="534.05927"
+         y="174.12802">o</tspan></text>
+  </g>
+</svg>
