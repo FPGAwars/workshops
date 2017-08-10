@@ -28,7 +28,7 @@
           },
           "position": {
             "x": 104,
-            "y": -72
+            "y": -40
           }
         },
         {
@@ -157,8 +157,8 @@
             "virtual": true
           },
           "position": {
-            "x": 776,
-            "y": -16
+            "x": 856,
+            "y": -24
           }
         },
         {
@@ -179,6 +179,25 @@
           "position": {
             "x": 104,
             "y": 48
+          }
+        },
+        {
+          "id": "48dc0b5a-ed52-4c27-8afe-5ebab54832dc",
+          "type": "basic.output",
+          "data": {
+            "name": "eq",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": "0"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 856,
+            "y": 64
           }
         },
         {
@@ -434,13 +453,23 @@
             "block": "f5bde147-a8ff-4d9b-b928-b556690828f5",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
           }
+        },
+        {
+          "source": {
+            "block": "bf299a45-f7b1-4f77-888c-e14462119358",
+            "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
+          },
+          "target": {
+            "block": "48dc0b5a-ed52-4c27-8afe-5ebab54832dc",
+            "port": "in"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": -58,
-        "y": 183.5
+        "x": -12.5,
+        "y": 138
       },
       "zoom": 1
     }

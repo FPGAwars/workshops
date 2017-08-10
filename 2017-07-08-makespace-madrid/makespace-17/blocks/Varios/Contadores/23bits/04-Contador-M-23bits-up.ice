@@ -137,7 +137,7 @@
             "virtual": true
           },
           "position": {
-            "x": 776,
+            "x": 792,
             "y": -16
           }
         },
@@ -159,6 +159,25 @@
           "position": {
             "x": 144,
             "y": -8
+          }
+        },
+        {
+          "id": "b7f3be25-814c-4e15-92c2-0cb48f05f74c",
+          "type": "basic.output",
+          "data": {
+            "name": "eq",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": "0"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 792,
+            "y": 64
           }
         },
         {
@@ -382,6 +401,16 @@
             }
           ],
           "size": 23
+        },
+        {
+          "source": {
+            "block": "bf299a45-f7b1-4f77-888c-e14462119358",
+            "port": "a00c46bf-380f-4964-98c7-ba2f75337396"
+          },
+          "target": {
+            "block": "b7f3be25-814c-4e15-92c2-0cb48f05f74c",
+            "port": "in"
+          }
         }
       ]
     },
