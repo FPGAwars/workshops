@@ -1,302 +1,72 @@
 {
   "version": "1.1",
   "package": {
-    "name": "NAND",
-    "version": "1.0.0",
-    "description": "NAND logic gate",
-    "author": "Carlos Diaz",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20110.69932%2059.082348%22%20width=%22110.7%22%20height=%2259.082%22%3E%3Cpath%20d=%22M-199.56%20458.482h-29.045V402.4h29.045s26.365%202.6%2026.365%2027.715c0%2025.113-26.365%2028.367-26.365%2028.367z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-250.986%20414.96h20.255m-20.255%2029.887h20.255m73.582-14.656h14.835%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-225.644%22%20y=%22434.883%22%20font-weight=%22400%22%20font-size=%2214.576%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-225.644%22%20y=%22434.883%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ENAND%3C/tspan%3E%3C/text%3E%3Cellipse%20cx=%22-164.682%22%20cy=%22430.037%22%20rx=%227.572%22%20ry=%227.677%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
+    "name": "Transistor-mosfet",
+    "version": "0.1",
+    "description": "Transistor",
+    "author": "Juan Gonzalez-Gomez",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2263.78%22%20height=%2278.887%22%20viewBox=%220%200%2063.779652%2078.887375%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-1.2%200l-1%201%203.5-1-3.5-1%201%201z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.2pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M1.25%2023.827h31.404V55.4M39.953%2018.904v10.524M39.613%2034.012v9.675M39.274%2048.95v10.354M40.462%2023.487H62.36M40.123%2054.042H62.53v23.595M62.36%201.25v39.042%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.5%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M39.962%2039.104h17.02%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.5%22%20stroke-linejoin=%22round%22%20marker-end=%22url(#a)%22/%3E%3C/svg%3E"
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true
-          },
+          "id": "5fe19312-2ba2-4578-bfbf-7060df93c55b",
+          "type": "538c494e25a1e4e7f582151e7ef0ae95a3f7bd64",
           "position": {
-            "x": 144,
-            "y": 32
-          }
-        },
-        {
-          "id": "664caf9e-5f40-4df4-800a-b626af702e62",
-          "type": "basic.output",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 600,
-            "y": 56
-          }
-        },
-        {
-          "id": "97b51945-d716-4b6c-9db9-970d08541249",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 144,
-            "y": 112
-          }
-        },
-        {
-          "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-          "type": "basic.code",
-          "data": {
-            "code": "// NAND logic gate\n\nassign c = ~(a & b);",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "a"
-                },
-                {
-                  "name": "b"
-                }
-              ],
-              "out": [
-                {
-                  "name": "c"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 304,
-            "y": 40
+            "x": 352,
+            "y": 208
           },
           "size": {
-            "width": 240,
-            "height": 96
+            "width": 96,
+            "height": 64
           }
         },
         {
-          "id": "f715be14-cf0b-4e3e-b09f-3101aa56b939",
+          "id": "8151ec8b-a30e-41c9-a9b5-d881406c4505",
           "type": "basic.info",
           "data": {
-            "info": "Implementación en Verilog",
+            "info": "Nivel 3: Semiconductores",
             "readonly": true
           },
           "position": {
-            "x": 288,
-            "y": -16
+            "x": 280,
+            "y": 72
           },
           "size": {
-            "width": 224,
+            "width": 208,
             "height": 32
           }
         },
         {
-          "id": "4dbb5547-f8a1-491f-8096-4fee2eacf7dc",
+          "id": "0249f66b-7f89-449e-801a-63e0bd8912c2",
           "type": "basic.info",
           "data": {
-            "info": "Las puertas están construidas a\npartir de transistores",
-            "readonly": true
-          },
-          "position": {
-            "x": 288,
-            "y": 224
-          },
-          "size": {
-            "width": 272,
-            "height": 48
-          }
-        },
-        {
-          "id": "74ce1022-b775-4125-924d-3bb8f3a4fe89",
-          "type": "basic.info",
-          "data": {
-            "info": "NIVEL 4: Transistor",
-            "readonly": false
-          },
-          "position": {
-            "x": 320,
-            "y": 176
-          },
-          "size": {
-            "width": 176,
-            "height": 32
-          }
-        },
-        {
-          "id": "2cb0d26a-81b0-49d8-97bb-f06f9121fb1f",
-          "type": "basic.info",
-          "data": {
-            "info": "Pincha en algún transistor para\nbajar de nivel",
+            "info": "Semiconductores tipo P y N\nunidos para formar una unión \nPNP y crear un transistor",
             "readonly": true
           },
           "position": {
             "x": 272,
-            "y": 368
+            "y": 120
           },
           "size": {
-            "width": 272,
-            "height": 48
-          }
-        },
-        {
-          "id": "7a0569e2-b94c-47c6-955d-9d8469648ae7",
-          "type": "c8b029ccc23b5742f3d817cff82b19232cd1c900",
-          "position": {
-            "x": 264,
-            "y": 280
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "4af75ff2-65a1-43d7-ba20-5e68d6733152",
-          "type": "c8b029ccc23b5742f3d817cff82b19232cd1c900",
-          "position": {
-            "x": 416,
-            "y": 280
-          },
-          "size": {
-            "width": 96,
+            "width": 256,
             "height": 64
           }
         }
       ],
-      "wires": [
-        {
-          "source": {
-            "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
-            "port": "out"
-          },
-          "target": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "a"
-          }
-        },
-        {
-          "source": {
-            "block": "97b51945-d716-4b6c-9db9-970d08541249",
-            "port": "out"
-          },
-          "target": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "b"
-          }
-        },
-        {
-          "source": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "c"
-          },
-          "target": {
-            "block": "664caf9e-5f40-4df4-800a-b626af702e62",
-            "port": "in"
-          }
-        }
-      ]
+      "wires": []
     },
     "state": {
       "pan": {
-        "x": 38,
-        "y": 46.5
+        "x": -90.4443,
+        "y": -52.6979
       },
-      "zoom": 1
+      "zoom": 1.2451
     }
   },
   "dependencies": {
-    "c8b029ccc23b5742f3d817cff82b19232cd1c900": {
-      "package": {
-        "name": "Transistor-mosfet",
-        "version": "0.1",
-        "description": "Transistor",
-        "author": "Juan Gonzalez-Gomez",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2263.78%22%20height=%2278.887%22%20viewBox=%220%200%2063.779652%2078.887375%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-1.2%200l-1%201%203.5-1-3.5-1%201%201z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.2pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M1.25%2023.827h31.404V55.4M39.953%2018.904v10.524M39.613%2034.012v9.675M39.274%2048.95v10.354M40.462%2023.487H62.36M40.123%2054.042H62.53v23.595M62.36%201.25v39.042%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.5%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M39.962%2039.104h17.02%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.5%22%20stroke-linejoin=%22round%22%20marker-end=%22url(#a)%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "5fe19312-2ba2-4578-bfbf-7060df93c55b",
-              "type": "538c494e25a1e4e7f582151e7ef0ae95a3f7bd64",
-              "position": {
-                "x": 352,
-                "y": 208
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "8151ec8b-a30e-41c9-a9b5-d881406c4505",
-              "type": "basic.info",
-              "data": {
-                "info": "Nivel 3: Semiconductores",
-                "readonly": true
-              },
-              "position": {
-                "x": 280,
-                "y": 72
-              },
-              "size": {
-                "width": 208,
-                "height": 32
-              }
-            },
-            {
-              "id": "0249f66b-7f89-449e-801a-63e0bd8912c2",
-              "type": "basic.info",
-              "data": {
-                "info": "Semiconductores tipo P y N\nunidos para formar una unión \nPNP y crear un transistor",
-                "readonly": true
-              },
-              "position": {
-                "x": 272,
-                "y": 120
-              },
-              "size": {
-                "width": 256,
-                "height": 64
-              }
-            }
-          ],
-          "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": -90.4443,
-            "y": -52.6979
-          },
-          "zoom": 1.2451
-        }
-      }
-    },
     "538c494e25a1e4e7f582151e7ef0ae95a3f7bd64": {
       "package": {
         "name": "semiconductores",
