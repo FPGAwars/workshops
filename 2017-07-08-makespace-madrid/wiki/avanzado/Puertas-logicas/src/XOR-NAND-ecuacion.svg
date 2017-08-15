@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="57.113304mm"
+   height="11.970811mm"
+   viewBox="0 0 202.36997 42.416259"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="XOR-NAND-ecuacion.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4248"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4248-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="240.73238"
+     inkscape:cy="83.806141"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.884521,-105.34926)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4266"
+       width="421.07819"
+       height="92.934036"
+       x="13.384521"
+       y="95.242653"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.596622"
+       y="134.4097"
+       id="text4174"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176"
+         x="55.596622"
+         y="134.4097">a+b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="21.213202"
+       y="135.64879"
+       id="text4152"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4154"
+         x="21.213202"
+         y="135.64879">f = </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="126.58985"
+       y="134.11003"
+       id="text4174-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-2"
+         x="126.58985"
+         y="134.11003">a</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9"
+       cx="141.47305"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="102.20644"
+       y="134.99199"
+       id="text4152-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4154-1"
+         x="102.20644"
+         y="134.99199">= </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="145.14458"
+       y="134.05457"
+       id="text4174-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6"
+         x="145.14458"
+         y="134.05457">b+a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="191.86775"
+       y="134.05457"
+       id="text4174-3-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-3"
+         x="191.86775"
+         y="134.05457">b</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-6"
+       cx="189.70784"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 128.29445,116.14224 8.58629,0"
+       id="path4210"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 193.95437,116.14224 8.58629,0"
+       id="path4210-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4227"
+       cx="76.328964"
+       cy="128.23335"
+       r="7.948606"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="234.44699"
+       y="134.11003"
+       id="text4174-6-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-2-6"
+         x="234.44699"
+         y="134.11003">a</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-7"
+       cx="249.3302"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="210.06358"
+       y="134.99199"
+       id="text4152-9-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4154-1-3"
+         x="210.06358"
+         y="134.99199">= </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="253.00172"
+       y="134.05457"
+       id="text4174-3-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-6"
+         x="253.00172"
+         y="134.05457">b+a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="299.72488"
+       y="134.05457"
+       id="text4174-3-9-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-3-9"
+         x="299.72488"
+         y="134.05457">b</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-6-1"
+       cx="297.56497"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 236.15159,116.14224 8.58629,0"
+       id="path4210-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 301.81151,116.14224 8.58629,0"
+       id="path4210-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 236.15153,109.57625 73.99367,0"
+       id="path4210-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 236.15153,104.27295 73.99367,0"
+       id="path4210-2-0-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.3687706px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="155.35648"
+       y="175.69118"
+       id="text4229"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4231"
+         x="155.35648"
+         y="175.69118">Ley de la doble negación</tspan></text>
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 219.67022,162.76552 0,-27.14286"
+       id="path4233"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="341.2327"
+       y="134.11003"
+       id="text4174-6-3-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-2-6-6"
+         x="341.2327"
+         y="134.11003">a</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-7-0"
+       cx="356.11591"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="316.8493"
+       y="134.99199"
+       id="text4152-9-5-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4154-1-3-2"
+         x="316.8493"
+         y="134.99199">= </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="359.78745"
+       y="134.05457"
+       id="text4174-3-5-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-6-1"
+         x="359.78745"
+         y="134.05457">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="406.51059"
+       y="134.05457"
+       id="text4174-3-9-2-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-3-9-7"
+         x="406.51059"
+         y="134.05457">b</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-6-1-9"
+       cx="404.35068"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 342.9373,116.14224 8.58629,0"
+       id="path4210-2-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 408.59722,116.14224 8.58629,0"
+       id="path4210-0-7-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 342.93724,109.57625 25.00127,0"
+       id="path4210-2-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 342.93724,104.27295 73.99367,0"
+       id="path4210-2-0-9-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.3687706px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="291.07077"
+       y="175.69118"
+       id="text4229-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4231-5"
+         x="291.07077"
+         y="175.69118">Ley de Morgan</tspan></text>
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)"
+       d="m 325.38451,162.76552 0,-27.14286"
+       id="path4233-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="387.93915"
+       y="134.05457"
+       id="text4174-3-9-2-8-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4176-6-3-9-7-9"
+         x="387.93915"
+         y="134.05457">a</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4226-9-7-0-7"
+       cx="380.22305"
+       cy="128.03819"
+       rx="0.96978945"
+       ry="0.84716135"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 391.92964,110.08133 25.00127,0"
+       id="path4210-2-0-2-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/FPGAwars/workshops/2017-07-08-makespace-madrid/wiki/avanzado/Puertas-logicas/logic-gates-21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
