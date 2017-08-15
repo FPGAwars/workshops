@@ -164,10 +164,10 @@
           }
         },
         {
-          "id": "7a0569e2-b94c-47c6-955d-9d8469648ae7",
-          "type": "c8b029ccc23b5742f3d817cff82b19232cd1c900",
+          "id": "612b3dd4-1b97-41c9-a82d-35818c7a9a7d",
+          "type": "44391c1e3c8ed8345059f7b281ed543e24d804ab",
           "position": {
-            "x": 264,
+            "x": 296,
             "y": 280
           },
           "size": {
@@ -176,10 +176,10 @@
           }
         },
         {
-          "id": "4af75ff2-65a1-43d7-ba20-5e68d6733152",
-          "type": "c8b029ccc23b5742f3d817cff82b19232cd1c900",
+          "id": "d4865d01-86ec-4751-a989-30de894ddc52",
+          "type": "44391c1e3c8ed8345059f7b281ed543e24d804ab",
           "position": {
-            "x": 416,
+            "x": 432,
             "y": 280
           },
           "size": {
@@ -223,14 +223,14 @@
     },
     "state": {
       "pan": {
-        "x": 38,
-        "y": 46.5
+        "x": 30,
+        "y": 63.5
       },
       "zoom": 1
     }
   },
   "dependencies": {
-    "c8b029ccc23b5742f3d817cff82b19232cd1c900": {
+    "44391c1e3c8ed8345059f7b281ed543e24d804ab": {
       "package": {
         "name": "Transistor-mosfet",
         "version": "0.1",
@@ -241,18 +241,6 @@
       "design": {
         "graph": {
           "blocks": [
-            {
-              "id": "5fe19312-2ba2-4578-bfbf-7060df93c55b",
-              "type": "538c494e25a1e4e7f582151e7ef0ae95a3f7bd64",
-              "position": {
-                "x": 352,
-                "y": 208
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
             {
               "id": "8151ec8b-a30e-41c9-a9b5-d881406c4505",
               "type": "basic.info",
@@ -273,15 +261,55 @@
               "id": "0249f66b-7f89-449e-801a-63e0bd8912c2",
               "type": "basic.info",
               "data": {
-                "info": "Semiconductores tipo P y N\nunidos para formar una unión \nPNP y crear un transistor",
+                "info": "Los transistores se crean a \npartir de uniones entre \nsemiconductores, de tipo P y N\nEstán integrados en los dados de\nsilicio en los circuitos integrados",
                 "readonly": true
               },
               "position": {
                 "x": 272,
-                "y": 120
+                "y": 128
               },
               "size": {
-                "width": 256,
+                "width": 304,
+                "height": 112
+              }
+            },
+            {
+              "id": "597eb358-6beb-4a4f-a997-9af9411cc3b7",
+              "type": "basic.info",
+              "data": {
+                "info": "Pincha en el bloque para bajar de nivel",
+                "readonly": true
+              },
+              "position": {
+                "x": 240,
+                "y": 328
+              },
+              "size": {
+                "width": 320,
+                "height": 48
+              }
+            },
+            {
+              "id": "6b6cb50e-5865-4685-a931-1822b5ce4662",
+              "type": "74d69b705b2e3c49127fc63881e0b1cacd5cde00",
+              "position": {
+                "x": 288,
+                "y": 232
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "d72b50fb-a689-4c5a-844a-41099393614f",
+              "type": "74d69b705b2e3c49127fc63881e0b1cacd5cde00",
+              "position": {
+                "x": 400,
+                "y": 232
+              },
+              "size": {
+                "width": 96,
                 "height": 64
               }
             }
@@ -290,14 +318,14 @@
         },
         "state": {
           "pan": {
-            "x": -90.4443,
-            "y": -52.6979
+            "x": 42,
+            "y": 39.5
           },
-          "zoom": 1.2451
+          "zoom": 1
         }
       }
     },
-    "538c494e25a1e4e7f582151e7ef0ae95a3f7bd64": {
+    "74d69b705b2e3c49127fc63881e0b1cacd5cde00": {
       "package": {
         "name": "semiconductores",
         "version": "0.1",
@@ -308,18 +336,6 @@
       "design": {
         "graph": {
           "blocks": [
-            {
-              "id": "a56c1bc4-745e-4f06-8751-344767434c0c",
-              "type": "7f9231ce2d716153026a8e6dbd3309216d221a5d",
-              "position": {
-                "x": 336,
-                "y": 240
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
             {
               "id": "1a085eca-ba52-4b2b-8d3b-26dc7ce280f1",
               "type": "basic.info",
@@ -353,11 +369,43 @@
               }
             },
             {
-              "id": "e3067666-7f14-430a-a9e8-e334d6e8d157",
-              "type": "7f9231ce2d716153026a8e6dbd3309216d221a5d",
+              "id": "e533d5e8-0a8a-4296-b9ff-eaf838da67f2",
+              "type": "basic.info",
+              "data": {
+                "info": "Los semiconductores se crean a partir de cristales\nde Silicio (Si) que se dopans con impurezas\npara darle las propiedades de semiconductores",
+                "readonly": true
+              },
               "position": {
-                "x": 336,
-                "y": 320
+                "x": 248,
+                "y": 200
+              },
+              "size": {
+                "width": 416,
+                "height": 80
+              }
+            },
+            {
+              "id": "344e23ea-0e6d-4644-a062-1ba96dd6f1ac",
+              "type": "basic.info",
+              "data": {
+                "info": "Pincha en los bloques para bajar de nivel",
+                "readonly": true
+              },
+              "position": {
+                "x": 256,
+                "y": 448
+              },
+              "size": {
+                "width": 352,
+                "height": 32
+              }
+            },
+            {
+              "id": "47335ed5-3027-4950-99f3-63cb4cc32f6f",
+              "type": "ef96701279598edd9cc030d373aa5c5b54328bb0",
+              "position": {
+                "x": 312,
+                "y": 280
               },
               "size": {
                 "width": 96,
@@ -365,11 +413,11 @@
               }
             },
             {
-              "id": "26c239ae-d0ae-49be-9b23-8fd39b63b1a5",
-              "type": "7f9231ce2d716153026a8e6dbd3309216d221a5d",
+              "id": "7ea75f45-3e07-4928-b339-ba448c9ad2a6",
+              "type": "ef96701279598edd9cc030d373aa5c5b54328bb0",
               "position": {
-                "x": 448,
-                "y": 240
+                "x": 432,
+                "y": 280
               },
               "size": {
                 "width": 96,
@@ -377,11 +425,23 @@
               }
             },
             {
-              "id": "f5da0bc1-38ec-494a-81be-8e069f5e3372",
-              "type": "7f9231ce2d716153026a8e6dbd3309216d221a5d",
+              "id": "3de540e7-2117-4b85-9693-e857ff6569a5",
+              "type": "ef96701279598edd9cc030d373aa5c5b54328bb0",
               "position": {
-                "x": 448,
-                "y": 320
+                "x": 312,
+                "y": 360
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "2ea46bea-6a7a-466d-9463-ffbb0a33a6be",
+              "type": "ef96701279598edd9cc030d373aa5c5b54328bb0",
+              "position": {
+                "x": 432,
+                "y": 360
               },
               "size": {
                 "width": 96,
@@ -393,14 +453,14 @@
         },
         "state": {
           "pan": {
-            "x": 10,
-            "y": -0.5
+            "x": -7,
+            "y": -122.5
           },
           "zoom": 1
         }
       }
     },
-    "7f9231ce2d716153026a8e6dbd3309216d221a5d": {
+    "ef96701279598edd9cc030d373aa5c5b54328bb0": {
       "package": {
         "name": "Cristal-si",
         "version": "0.1",
@@ -416,7 +476,7 @@
               "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
               "position": {
                 "x": 256,
-                "y": 184
+                "y": 256
               },
               "size": {
                 "width": 96,
@@ -428,7 +488,7 @@
               "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
               "position": {
                 "x": 256,
-                "y": 88
+                "y": 160
               },
               "size": {
                 "width": 96,
@@ -440,7 +500,7 @@
               "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
               "position": {
                 "x": 104,
-                "y": 184
+                "y": 256
               },
               "size": {
                 "width": 96,
@@ -452,7 +512,7 @@
               "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
               "position": {
                 "x": 256,
-                "y": 288
+                "y": 360
               },
               "size": {
                 "width": 96,
@@ -464,7 +524,7 @@
               "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
               "position": {
                 "x": 416,
-                "y": 184
+                "y": 256
               },
               "size": {
                 "width": 96,
@@ -480,7 +540,7 @@
               },
               "position": {
                 "x": 216,
-                "y": 40
+                "y": -16
               },
               "size": {
                 "width": 160,
@@ -496,11 +556,27 @@
               },
               "position": {
                 "x": 232,
-                "y": -8
+                "y": -56
               },
               "size": {
                 "width": 144,
                 "height": 32
+              }
+            },
+            {
+              "id": "8bcd0e31-7bd4-4663-b112-c0be595e69a1",
+              "type": "basic.info",
+              "data": {
+                "info": "Los cristales de silicio se forman a \npartir del enlace covalente entre los\nátomos de silicio. Cada uno de ellos \nestá rodeado por 4 átomos de silicio\nformando un tetraedro",
+                "readonly": true
+              },
+              "position": {
+                "x": 136,
+                "y": 32
+              },
+              "size": {
+                "width": 336,
+                "height": 96
               }
             }
           ],
@@ -508,8 +584,8 @@
         },
         "state": {
           "pan": {
-            "x": 142,
-            "y": 91.5
+            "x": 124,
+            "y": 59.5
           },
           "zoom": 1
         }

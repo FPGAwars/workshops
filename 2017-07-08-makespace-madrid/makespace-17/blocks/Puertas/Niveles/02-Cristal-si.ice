@@ -16,7 +16,7 @@
           "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
           "position": {
             "x": 256,
-            "y": 184
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -28,7 +28,7 @@
           "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
           "position": {
             "x": 256,
-            "y": 88
+            "y": 160
           },
           "size": {
             "width": 96,
@@ -40,7 +40,7 @@
           "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
           "position": {
             "x": 104,
-            "y": 184
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -52,7 +52,7 @@
           "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
           "position": {
             "x": 256,
-            "y": 288
+            "y": 360
           },
           "size": {
             "width": 96,
@@ -64,7 +64,7 @@
           "type": "8450b0478ebab7fb7e86228070118db65aadabcc",
           "position": {
             "x": 416,
-            "y": 184
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -80,7 +80,7 @@
           },
           "position": {
             "x": 216,
-            "y": 40
+            "y": -16
           },
           "size": {
             "width": 160,
@@ -96,11 +96,27 @@
           },
           "position": {
             "x": 232,
-            "y": -8
+            "y": -56
           },
           "size": {
             "width": 144,
             "height": 32
+          }
+        },
+        {
+          "id": "8bcd0e31-7bd4-4663-b112-c0be595e69a1",
+          "type": "basic.info",
+          "data": {
+            "info": "Los cristales de silicio se forman a \npartir del enlace covalente entre los\nátomos de silicio. Cada uno de ellos \nestá rodeado por 4 átomos de silicio\nformando un tetraedro",
+            "readonly": true
+          },
+          "position": {
+            "x": 136,
+            "y": 32
+          },
+          "size": {
+            "width": 336,
+            "height": 96
           }
         }
       ],
@@ -108,8 +124,8 @@
     },
     "state": {
       "pan": {
-        "x": 142,
-        "y": 91.5
+        "x": 124,
+        "y": 59.5
       },
       "zoom": 1
     }
