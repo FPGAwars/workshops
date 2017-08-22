@@ -62,27 +62,8 @@
             "virtual": false
           },
           "position": {
-            "x": 496,
-            "y": -152
-          }
-        },
-        {
-          "id": "9acfac0a-1f68-49ad-9cf1-623d3c26b56f",
-          "type": "basic.output",
-          "data": {
-            "name": "Serial",
-            "pins": [
-              {
-                "index": "0",
-                "name": "TX",
-                "value": "8"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 760,
-            "y": 232
+            "x": 824,
+            "y": 0
           }
         },
         {
@@ -103,6 +84,25 @@
           "position": {
             "x": 72,
             "y": 240
+          }
+        },
+        {
+          "id": "9acfac0a-1f68-49ad-9cf1-623d3c26b56f",
+          "type": "basic.output",
+          "data": {
+            "name": "Serial",
+            "pins": [
+              {
+                "index": "0",
+                "name": "TX",
+                "value": "8"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 824,
+            "y": 312
           }
         },
         {
@@ -222,6 +222,12 @@
             "block": "a150309b-3d92-420a-9751-1505377a75f5",
             "port": "in"
           },
+          "vertices": [
+            {
+              "x": 432,
+              "y": 144
+            }
+          ],
           "size": 8
         },
         {
@@ -239,10 +245,10 @@
     },
     "state": {
       "pan": {
-        "x": -63,
-        "y": 172
+        "x": 49.8451,
+        "y": 79.6197
       },
-      "zoom": 1
+      "zoom": 0.787
     }
   },
   "dependencies": {
