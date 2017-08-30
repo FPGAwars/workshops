@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="51.833225"
-   height="30.109085"
-   viewBox="0 0 48.593852 28.227376"
+   width="14.137938"
+   height="14.447599"
+   viewBox="0 0 13.254373 13.544677"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Const-23bits.svg">
+   sodipodi:docname="Const.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -143,16 +143,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1215"
+     inkscape:window-height="1000"
      id="namedview16"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="7.4406012"
-     inkscape:cx="19.249168"
-     inkscape:cy="12.210297"
-     inkscape:window-x="65"
+     inkscape:cx="16.006884"
+     inkscape:cy="0.44634545"
+     inkscape:window-x="88"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
@@ -163,25 +163,13 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.57971001px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="-0.17788571"
+     x="-1.7055594"
      y="13.544677"
      id="text4190"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan4192"
-       x="-0.17788571"
+       x="-1.7055594"
        y="13.544677"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">Num</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:12.97187328px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="-1.0260954"
-     y="28.043697"
-     id="text4190-3"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan4192-6"
-       x="-1.0260954"
-       y="28.043697"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">23 bits</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">K</tspan></text>
 </svg>
