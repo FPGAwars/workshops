@@ -207,11 +207,11 @@
           }
         },
         {
-          "id": "f300d3f4-ef54-4f95-bb83-88249638f293",
-          "type": "aca928353fdc282ba01b19536be85faf97cf8e53",
+          "id": "4c4c9d1d-7f49-46b9-97ce-9ae454d887f6",
+          "type": "4fdf28ab174bfe1f5692d972801d774e8e58098f",
           "position": {
-            "x": -336,
-            "y": 216
+            "x": -128,
+            "y": 144
           },
           "size": {
             "width": 96,
@@ -219,11 +219,11 @@
           }
         },
         {
-          "id": "4c4c9d1d-7f49-46b9-97ce-9ae454d887f6",
-          "type": "4fdf28ab174bfe1f5692d972801d774e8e58098f",
+          "id": "382c482a-f7da-4e1e-8470-7080d9485361",
+          "type": "2a399f3175d6e51723f5a4d6d078b510283a1385",
           "position": {
-            "x": -128,
-            "y": 144
+            "x": -320,
+            "y": 200
           },
           "size": {
             "width": 96,
@@ -391,17 +391,6 @@
         },
         {
           "source": {
-            "block": "f300d3f4-ef54-4f95-bb83-88249638f293",
-            "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
-          },
-          "target": {
-            "block": "4c4c9d1d-7f49-46b9-97ce-9ae454d887f6",
-            "port": "f34a94f6-0529-4b37-8cfe-dcc91fa44b14"
-          },
-          "size": 23
-        },
-        {
-          "source": {
             "block": "6cd337be-e4b4-4b82-8b9a-31d07a99ef25",
             "port": "70887b0b-826c-4150-a873-605b77da8272"
           },
@@ -409,15 +398,26 @@
             "block": "4c4c9d1d-7f49-46b9-97ce-9ae454d887f6",
             "port": "c84d81de-261a-469b-91ac-868551137e94"
           }
+        },
+        {
+          "source": {
+            "block": "382c482a-f7da-4e1e-8470-7080d9485361",
+            "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
+          },
+          "target": {
+            "block": "4c4c9d1d-7f49-46b9-97ce-9ae454d887f6",
+            "port": "f34a94f6-0529-4b37-8cfe-dcc91fa44b14"
+          },
+          "size": 23
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 360.576,
-        "y": 71.3404
+        "x": 357.6123,
+        "y": 111.8867
       },
-      "zoom": 0.8129
+      "zoom": 0.6529
     }
   },
   "dependencies": {
@@ -6614,80 +6614,6 @@
             "y": 76.0714
           },
           "zoom": 0.9762
-        }
-      }
-    },
-    "aca928353fdc282ba01b19536be85faf97cf8e53": {
-      "package": {
-        "name": "AA_8bits",
-        "version": "0.0.1",
-        "description": "Valor constante 0xAA para bus de 8 bits",
-        "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22110.427%22%20height=%2230.37%22%20viewBox=%220%200%20103.52557%2028.47232%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-.178%22%20y=%2213.79%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-.178%22%20y=%2213.79%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E6.000.000%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-1.026%22%20y=%2228.289%22%20font-weight=%22400%22%20font-size=%2212.972%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.026%22%20y=%2228.289%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E23%20bits%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
-              "type": "basic.output",
-              "data": {
-                "name": "K",
-                "range": "[22:0]",
-                "size": 23
-              },
-              "position": {
-                "x": 960,
-                "y": 248
-              }
-            },
-            {
-              "id": "5e87f688-17ec-4faf-af1c-dde5107a2f06",
-              "type": "basic.code",
-              "data": {
-                "code": "localparam M = 6000000;\n\nassign o = M-1;",
-                "params": [],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "o",
-                      "range": "[22:0]",
-                      "size": 23
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 624,
-                "y": 240
-              },
-              "size": {
-                "width": 240,
-                "height": 80
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "5e87f688-17ec-4faf-af1c-dde5107a2f06",
-                "port": "o"
-              },
-              "target": {
-                "block": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
-                "port": "in"
-              },
-              "size": 23
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": -414,
-            "y": 43.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -17513,6 +17439,89 @@
             "y": 85.7124
           },
           "zoom": 0.9071
+        }
+      }
+    },
+    "2a399f3175d6e51723f5a4d6d078b510283a1385": {
+      "package": {
+        "name": "6_000_000_23bits",
+        "version": "0.0.1",
+        "description": "Valor constante 6 millones para bus de 23 bits",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22179.863%22%20height=%2224.647%22%20viewBox=%220%200%20168.62254%2023.106531%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-1.894%22%20y=%2222.674%22%20font-weight=%22400%22%20font-size=%2230.55%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.894%22%20y=%2222.674%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E6.000.000%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
+              "type": "basic.output",
+              "data": {
+                "name": "K",
+                "range": "[22:0]",
+                "size": 23
+              },
+              "position": {
+                "x": 960,
+                "y": 248
+              }
+            },
+            {
+              "id": "39a6bb2b-f7d9-419c-b6f5-f210f7b6b89b",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "23'd6000000",
+                "local": true
+              },
+              "position": {
+                "x": 784,
+                "y": 136
+              }
+            },
+            {
+              "id": "eccbde84-117e-4d4b-9a98-115204edaff6",
+              "type": "0f42147eee3d2a4b4709aef05a8f6809862d09a1",
+              "position": {
+                "x": 784,
+                "y": 248
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "eccbde84-117e-4d4b-9a98-115204edaff6",
+                "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
+              },
+              "target": {
+                "block": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
+                "port": "in"
+              },
+              "size": 23
+            },
+            {
+              "source": {
+                "block": "39a6bb2b-f7d9-419c-b6f5-f210f7b6b89b",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "eccbde84-117e-4d4b-9a98-115204edaff6",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            }
+          ]
+        },
+        "state": {
+          "pan": {
+            "x": -470,
+            "y": 39.5
+          },
+          "zoom": 1
         }
       }
     }

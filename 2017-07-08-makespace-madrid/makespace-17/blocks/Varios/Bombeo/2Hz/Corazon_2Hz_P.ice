@@ -51,18 +51,6 @@
           }
         },
         {
-          "id": "71d0575d-5e78-4e5c-aef6-175154868ffc",
-          "type": "aca928353fdc282ba01b19536be85faf97cf8e53",
-          "position": {
-            "x": 208,
-            "y": 1344
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "e3f9cf94-84ef-4147-be37-26099ad16e79",
           "type": "basic.info",
           "data": {
@@ -105,6 +93,18 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "895f2bdb-be1a-4423-97bd-73b8dedcd4d7",
+          "type": "2a399f3175d6e51723f5a4d6d078b510283a1385",
+          "position": {
+            "x": 208,
+            "y": 1336
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -120,17 +120,6 @@
         },
         {
           "source": {
-            "block": "71d0575d-5e78-4e5c-aef6-175154868ffc",
-            "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
-          },
-          "target": {
-            "block": "1ae3704c-749e-447f-830d-0cc797df1041",
-            "port": "f34a94f6-0529-4b37-8cfe-dcc91fa44b14"
-          },
-          "size": 23
-        },
-        {
-          "source": {
             "block": "784096db-1486-4ba8-a81b-59f5ecceebd9",
             "port": "out"
           },
@@ -138,92 +127,29 @@
             "block": "1ae3704c-749e-447f-830d-0cc797df1041",
             "port": "c84d81de-261a-469b-91ac-868551137e94"
           }
+        },
+        {
+          "source": {
+            "block": "895f2bdb-be1a-4423-97bd-73b8dedcd4d7",
+            "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
+          },
+          "target": {
+            "block": "1ae3704c-749e-447f-830d-0cc797df1041",
+            "port": "f34a94f6-0529-4b37-8cfe-dcc91fa44b14"
+          },
+          "size": 23
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 39.6579,
-        "y": -892.2105
+        "x": 69.6579,
+        "y": -893.2105
       },
       "zoom": 0.9803
     }
   },
   "dependencies": {
-    "aca928353fdc282ba01b19536be85faf97cf8e53": {
-      "package": {
-        "name": "AA_8bits",
-        "version": "0.0.1",
-        "description": "Valor constante 0xAA para bus de 8 bits",
-        "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22110.427%22%20height=%2230.37%22%20viewBox=%220%200%20103.52557%2028.47232%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-.178%22%20y=%2213.79%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-.178%22%20y=%2213.79%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E6.000.000%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-1.026%22%20y=%2228.289%22%20font-weight=%22400%22%20font-size=%2212.972%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.026%22%20y=%2228.289%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E23%20bits%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
-              "type": "basic.output",
-              "data": {
-                "name": "K",
-                "range": "[22:0]",
-                "size": 23
-              },
-              "position": {
-                "x": 960,
-                "y": 248
-              }
-            },
-            {
-              "id": "5e87f688-17ec-4faf-af1c-dde5107a2f06",
-              "type": "basic.code",
-              "data": {
-                "code": "localparam M = 6000000;\n\nassign o = M-1;",
-                "params": [],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "o",
-                      "range": "[22:0]",
-                      "size": 23
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 624,
-                "y": 240
-              },
-              "size": {
-                "width": 240,
-                "height": 80
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "5e87f688-17ec-4faf-af1c-dde5107a2f06",
-                "port": "o"
-              },
-              "target": {
-                "block": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
-                "port": "in"
-              },
-              "size": 23
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": -414,
-            "y": 43.5
-          },
-          "zoom": 1
-        }
-      }
-    },
     "4fdf28ab174bfe1f5692d972801d774e8e58098f": {
       "package": {
         "name": "Contador-8bits-Modulo-M-rst",
@@ -11046,6 +10972,89 @@
             "y": 85.7124
           },
           "zoom": 0.9071
+        }
+      }
+    },
+    "2a399f3175d6e51723f5a4d6d078b510283a1385": {
+      "package": {
+        "name": "6_000_000_23bits",
+        "version": "0.0.1",
+        "description": "Valor constante 6 millones para bus de 23 bits",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22179.863%22%20height=%2224.647%22%20viewBox=%220%200%20168.62254%2023.106531%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-1.894%22%20y=%2222.674%22%20font-weight=%22400%22%20font-size=%2230.55%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.894%22%20y=%2222.674%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E6.000.000%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
+              "type": "basic.output",
+              "data": {
+                "name": "K",
+                "range": "[22:0]",
+                "size": 23
+              },
+              "position": {
+                "x": 960,
+                "y": 248
+              }
+            },
+            {
+              "id": "39a6bb2b-f7d9-419c-b6f5-f210f7b6b89b",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "23'd6000000",
+                "local": true
+              },
+              "position": {
+                "x": 784,
+                "y": 136
+              }
+            },
+            {
+              "id": "eccbde84-117e-4d4b-9a98-115204edaff6",
+              "type": "0f42147eee3d2a4b4709aef05a8f6809862d09a1",
+              "position": {
+                "x": 784,
+                "y": 248
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "eccbde84-117e-4d4b-9a98-115204edaff6",
+                "port": "04cdc10a-69e6-4969-83d7-2ad1d0f02119"
+              },
+              "target": {
+                "block": "04cdc10a-69e6-4969-83d7-2ad1d0f02119",
+                "port": "in"
+              },
+              "size": 23
+            },
+            {
+              "source": {
+                "block": "39a6bb2b-f7d9-419c-b6f5-f210f7b6b89b",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "eccbde84-117e-4d4b-9a98-115204edaff6",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            }
+          ]
+        },
+        "state": {
+          "pan": {
+            "x": -470,
+            "y": 39.5
+          },
+          "zoom": 1
         }
       }
     }
