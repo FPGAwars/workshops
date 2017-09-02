@@ -41,7 +41,7 @@
           "type": "basic.constant",
           "data": {
             "name": "V",
-            "value": "2'h1",
+            "value": "2'd1",
             "local": true
           },
           "position": {
@@ -50,8 +50,8 @@
           }
         },
         {
-          "id": "03c5c8b7-459c-4482-9356-d18e92b1b106",
-          "type": "0d35467cbf36180b7d367661982c3c8f5501173b",
+          "id": "c38eb45f-e5b0-4be7-8d4d-7592432bf5b0",
+          "type": "390387dcb48089fe189dc463ef12dd5587b6ed8f",
           "position": {
             "x": 728,
             "y": 256
@@ -65,17 +65,7 @@
       "wires": [
         {
           "source": {
-            "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "03c5c8b7-459c-4482-9356-d18e92b1b106",
-            "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-          }
-        },
-        {
-          "source": {
-            "block": "03c5c8b7-459c-4482-9356-d18e92b1b106",
+            "block": "c38eb45f-e5b0-4be7-8d4d-7592432bf5b0",
             "port": "603ddbc9-28cf-4ecc-a0c6-a5a2ce3b0b26"
           },
           "target": {
@@ -83,6 +73,16 @@
             "port": "in"
           },
           "size": 2
+        },
+        {
+          "source": {
+            "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "c38eb45f-e5b0-4be7-8d4d-7592432bf5b0",
+            "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+          }
         }
       ]
     },
@@ -95,13 +95,13 @@
     }
   },
   "dependencies": {
-    "0d35467cbf36180b7d367661982c3c8f5501173b": {
+    "390387dcb48089fe189dc463ef12dd5587b6ed8f": {
       "package": {
         "name": "Constante-2bits",
         "version": "0.0.1",
         "description": "Valor constante de 2 bits",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.997%22%20height=%2229.437%22%20viewBox=%220%200%2044.997735%2027.597382%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-1.706%22%20y=%2213.545%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.706%22%20y=%2213.545%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3ENum%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%222.108%22%20y=%2227.414%22%20font-weight=%22400%22%20font-size=%2212.972%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%222.108%22%20y=%2227.414%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E2%20bits%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2214.138%22%20height=%2214.448%22%20viewBox=%220%200%2013.254373%2013.544677%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-1.706%22%20y=%2213.545%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.706%22%20y=%2213.545%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3EK%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -123,7 +123,7 @@
               "id": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4",
               "type": "basic.constant",
               "data": {
-                "name": "V",
+                "name": "",
                 "value": "2'h0",
                 "local": false
               },

@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="100.46637"
-   height="55.611389"
-   viewBox="0 0 94.187617 52.135877"
+   width="17.26395"
+   height="24.185438"
+   viewBox="0 0 16.185021 22.673936"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Inc1-23bits.svg">
+   sodipodi:docname="Valor_0000002.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -143,16 +143,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1215"
+     inkscape:window-height="1000"
      id="namedview16"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.8601503"
-     inkscape:cx="31.90321"
-     inkscape:cy="10.229831"
-     inkscape:window-x="65"
+     inkscape:zoom="10.522599"
+     inkscape:cx="4.5781213"
+     inkscape:cy="1.2431234"
+     inkscape:window-x="88"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
@@ -162,14 +162,14 @@
      fit-margin-bottom="0" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:70.2462616px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="-7.4430852"
-     y="52.135876"
-     id="text4198"
+     style="font-style:normal;font-weight:normal;font-size:30.55015564px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-2.4165649"
+     y="22.673941"
+     id="text4190"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       id="tspan4200"
-       x="-7.4430852"
-       y="52.135876"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff">+1</tspan></text>
+       id="tspan4192"
+       x="-2.4165649"
+       y="22.673941"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">2</tspan></text>
 </svg>
