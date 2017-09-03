@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="74.750107"
-   height="40.584587"
-   viewBox="0 0 70.078519 38.048196"
+   height="40.15498"
+   viewBox="0 0 70.078519 37.645438"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -143,16 +143,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1215"
-     inkscape:window-height="1000"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      id="namedview16"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.8601503"
-     inkscape:cx="12.582476"
-     inkscape:cy="-4.5145935"
-     inkscape:window-x="88"
+     inkscape:cx="-70.475329"
+     inkscape:cy="-0.21386276"
+     inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
@@ -164,24 +164,24 @@
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:30.55015564px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="12.57273"
-     y="22.673937"
+     y="22.271173"
      id="text4190"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan4192"
        x="12.57273"
-       y="22.673937"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">F0</tspan></text>
+       y="22.271173"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">FF</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:12.97187328px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="-1.4631361"
-     y="37.864521"
+     y="37.461758"
      id="text4190-3"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan4192-6"
        x="-1.4631361"
-       y="37.864521"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">11110000</tspan></text>
+       y="37.461758"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#008000">11111111</tspan></text>
 </svg>
