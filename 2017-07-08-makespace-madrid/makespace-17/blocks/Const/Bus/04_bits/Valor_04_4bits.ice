@@ -60,8 +60,8 @@
           }
         },
         {
-          "id": "cef50594-88e6-4428-9c24-61eaee0ce833",
-          "type": "5253f24edea45b9680e0fc14436fdffd57b64f1a",
+          "id": "2b26e8fd-79e4-447d-a0d3-7e3732169513",
+          "type": "41b1c641b61aebb6f88ccdd4a00725efd07b92da",
           "position": {
             "x": 728,
             "y": 256
@@ -75,7 +75,7 @@
       "wires": [
         {
           "source": {
-            "block": "cef50594-88e6-4428-9c24-61eaee0ce833",
+            "block": "2b26e8fd-79e4-447d-a0d3-7e3732169513",
             "port": "5ed3ad73-16e5-4dda-9483-c36394a97ad2"
           },
           "target": {
@@ -90,7 +90,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "cef50594-88e6-4428-9c24-61eaee0ce833",
+            "block": "2b26e8fd-79e4-447d-a0d3-7e3732169513",
             "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
           }
         }
@@ -105,13 +105,13 @@
     }
   },
   "dependencies": {
-    "5253f24edea45b9680e0fc14436fdffd57b64f1a": {
+    "41b1c641b61aebb6f88ccdd4a00725efd07b92da": {
       "package": {
         "name": "Constante-4bits",
         "version": "0.0.1",
         "description": "Valor constante de 4 bits",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.997%22%20height=%2229.437%22%20viewBox=%220%200%2044.997735%2027.597382%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-1.706%22%20y=%2213.545%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.706%22%20y=%2213.545%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3ENum%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%222.108%22%20y=%2227.414%22%20font-weight=%22400%22%20font-size=%2212.972%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%222.108%22%20y=%2227.414%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3E4%20bits%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2214.138%22%20height=%2214.448%22%20viewBox=%220%200%2013.254373%2013.544677%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:sans-serif%22%20x=%22-1.706%22%20y=%2213.545%22%20font-weight=%22400%22%20font-size=%2218.58%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-1.706%22%20y=%2213.545%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20fill=%22green%22%3EK%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
       "design": {
         "graph": {

@@ -50,7 +50,7 @@
           "id": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4",
           "type": "basic.constant",
           "data": {
-            "name": "V",
+            "name": "",
             "value": "4'h0",
             "local": false
           },
