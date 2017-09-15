@@ -32,26 +32,6 @@
           }
         },
         {
-          "id": "e449995d-c753-4c37-8e5d-6f392c723602",
-          "type": "basic.input",
-          "data": {
-            "name": "d",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true,
-            "clock": false
-          },
-          "position": {
-            "x": 48,
-            "y": 120
-          }
-        },
-        {
           "id": "80f83307-e21c-4247-95d9-353d5d2c5692",
           "type": "basic.output",
           "data": {
@@ -72,8 +52,47 @@
             "virtual": true
           },
           "position": {
-            "x": 840,
-            "y": 224
+            "x": 856,
+            "y": 88
+          }
+        },
+        {
+          "id": "e449995d-c753-4c37-8e5d-6f392c723602",
+          "type": "basic.input",
+          "data": {
+            "name": "d",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": "0"
+              }
+            ],
+            "virtual": true,
+            "clock": false
+          },
+          "position": {
+            "x": 48,
+            "y": 120
+          }
+        },
+        {
+          "id": "9d40fdd2-808f-4352-9d3b-80ee18192324",
+          "type": "basic.output",
+          "data": {
+            "name": "",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": "0"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 856,
+            "y": 168
           }
         },
         {
@@ -117,30 +136,11 @@
           }
         },
         {
-          "id": "9d40fdd2-808f-4352-9d3b-80ee18192324",
-          "type": "basic.output",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 840,
-            "y": 312
-          }
-        },
-        {
           "id": "7470a585-7c3a-4ad5-9300-c1e31e209faf",
           "type": "c67fda3e9899032166cd4536d0a45c0be98d946e",
           "position": {
-            "x": 664,
-            "y": 224
+            "x": 680,
+            "y": 88
           },
           "size": {
             "width": 96,
@@ -254,7 +254,13 @@
           "target": {
             "block": "142a3f67-590f-4253-bb29-91cd351302bc",
             "port": "e058d17b-b20f-42c6-b733-5ad988f2b8eb"
-          }
+          },
+          "vertices": [
+            {
+              "x": 424,
+              "y": 96
+            }
+          ]
         },
         {
           "source": {
@@ -284,29 +290,29 @@
         },
         {
           "source": {
-            "block": "142a3f67-590f-4253-bb29-91cd351302bc",
-            "port": "0e429917-5fd4-4bf4-93b4-3f5658971284"
-          },
-          "target": {
-            "block": "7470a585-7c3a-4ad5-9300-c1e31e209faf",
-            "port": "3cac4619-1f44-4d02-8d1e-6ab14779a115"
-          }
-        },
-        {
-          "source": {
             "block": "4e3d268f-fe04-4315-97b3-e271217f3657",
             "port": "0e429917-5fd4-4bf4-93b4-3f5658971284"
           },
           "target": {
             "block": "7470a585-7c3a-4ad5-9300-c1e31e209faf",
-            "port": "63c7309a-4460-4727-99ac-8c08c900502a"
+            "port": "3cac4619-1f44-4d02-8d1e-6ab14779a115"
           },
           "vertices": [
             {
-              "x": 432,
-              "y": 264
+              "x": 456,
+              "y": 120
             }
           ]
+        },
+        {
+          "source": {
+            "block": "142a3f67-590f-4253-bb29-91cd351302bc",
+            "port": "0e429917-5fd4-4bf4-93b4-3f5658971284"
+          },
+          "target": {
+            "block": "7470a585-7c3a-4ad5-9300-c1e31e209faf",
+            "port": "63c7309a-4460-4727-99ac-8c08c900502a"
+          }
         },
         {
           "source": {
@@ -322,10 +328,10 @@
     },
     "state": {
       "pan": {
-        "x": -5.5556,
-        "y": 77.4815
+        "x": -4.3243,
+        "y": 71.4279
       },
-      "zoom": 0.9491
+      "zoom": 0.9234
     }
   },
   "dependencies": {
