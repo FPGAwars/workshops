@@ -1,2 +1,3 @@
-# Latuino-collection
-Collection of blocks and examples for developing the Latuino core
+# Makespace Madrid Workshop collection
+
+Collection used for the workshop given at Makespace Madrid
